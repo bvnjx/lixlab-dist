@@ -1564,7 +1564,7 @@
       },
       "branding": {
         "wallpaperUrl": "https://bvnjx.github.io/lixlab-dist/wallpapers/apocalipsis.svg",
-        "heroTitle": "APOCA<span class='accent'>·</span>LIPSIS",
+        "heroTitle": "APOCA·LIPSIS",
         "heroSub": "Sobrevive a la horda"
       }
     },
@@ -1584,7 +1584,7 @@
       },
       "branding": {
         "wallpaperUrl": "https://bvnjx.github.io/lixlab-dist/wallpapers/vanilla.svg",
-        "heroTitle": "LIX<span class='accent'>·</span>LAB",
+        "heroTitle": "LIX·LAB",
         "heroSub": "Survival optimizado"
       },
       "mods": [
@@ -2118,7 +2118,7 @@
       },
       "branding": {
         "wallpaperUrl": "https://bvnjx.github.io/lixlab-dist/wallpapers/laboratorio.svg",
-        "heroTitle": "LABORA<span class='accent'>·</span>TORIO",
+        "heroTitle": "LABORA·TORIO",
         "heroSub": "Próximamente"
       },
       "mods": [],
