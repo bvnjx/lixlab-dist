@@ -19,9 +19,10 @@
     ]
   },
   "server": {
-    "host": "atoms-ballots.tun.ply.gg",
-    "port": 37409,
-    "name": "LixLab · Apocalipsis Z"
+    "name": "LixLab Network",
+    "host": "stapling-indi.tun.ply.gg",
+    "port": 51761,
+    "onlineMode": false
   },
   "news": [
     {
@@ -1567,6 +1568,12 @@
         "wallpaperUrl": "https://bvnjx.github.io/lixlab-dist/wallpapers/apocalipsis.svg",
         "heroTitle": "APOCA·LIPSIS",
         "heroSub": "Sobrevive a la horda"
+      },
+      "server": {
+        "name": "LixLab · Apocalipsis Z",
+        "host": "atoms-ballots.tun.ply.gg",
+        "port": 37409,
+        "onlineMode": false
       }
     },
     {
@@ -2101,6 +2108,12 @@
           "file/better-leaves.zip",
           "file/fast-better-grass.zip"
         ]
+      },
+      "server": {
+        "name": "LixLab Network",
+        "host": "stapling-indi.tun.ply.gg",
+        "port": 51761,
+        "onlineMode": false
       }
     },
     {
@@ -2123,7 +2136,13 @@
         "heroSub": "Próximamente"
       },
       "mods": [],
-      "files": []
+      "files": [],
+      "server": {
+        "name": "El Laboratorio",
+        "host": "stapling-indi.tun.ply.gg",
+        "port": 51761,
+        "onlineMode": false
+      }
     }
   ]
 }
