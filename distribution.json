@@ -1561,7 +1561,9 @@
         }
       ],
       "theme": {
-        "accent": "#8fbc3f"
+        "accent": "#cc433b",
+        "glow": "#8c2e29",
+        "deep": "#0d1213"
       },
       "branding": {
         "wallpaperUrl": "https://bvnjx.github.io/lixlab-dist/wallpapers/apocalipsis.jpg",
@@ -1587,7 +1589,9 @@
         "version": "0.19.3"
       },
       "theme": {
-        "accent": "#e8a13c"
+        "accent": "#347dcc",
+        "glow": "#24568c",
+        "deep": "#13100c"
       },
       "branding": {
         "wallpaperUrl": "https://bvnjx.github.io/lixlab-dist/wallpapers/vanilla.jpg",
@@ -2127,7 +2131,9 @@
         "version": "0.17.2"
       },
       "theme": {
-        "accent": "#5ad2f0"
+        "accent": "#cc8a5b",
+        "glow": "#8c6950",
+        "deep": "#111113"
       },
       "branding": {
         "wallpaperUrl": "https://bvnjx.github.io/lixlab-dist/wallpapers/laboratorio.jpg",
