@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es-CL">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>LixLab Client — el launcher de LixLab</title>
+<meta name="description" content="Baja el LixLab Client: entra al Apocalipsis Z con un clic, con mods que se actualizan solos."/>
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    background: #0d1117; color: #e6edf3; line-height: 1.6;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 48px 20px 80px; }
+  h1 { font-size: 2.4rem; margin: 0 0 .2em; letter-spacing: -.02em; }
+  .tag { color: #7ee787; font-weight: 600; }
+  .sub { color: #8b949e; font-size: 1.1rem; margin-bottom: 2.5em; }
+  .btn {
+    display: inline-block; background: #238636; color: #fff; text-decoration: none;
+    padding: 14px 28px; border-radius: 8px; font-weight: 600; font-size: 1.05rem;
+  }
+  .btn:hover { background: #2ea043; }
+  .btn.alt { background: #21262d; border: 1px solid #30363d; margin-left: 8px; }
+  .card {
+    background: #161b22; border: 1px solid #30363d; border-radius: 10px;
+    padding: 20px 24px; margin: 16px 0;
+  }
+  .card h3 { margin: 0 0 .4em; font-size: 1.05rem; }
+  .card p { margin: 0; color: #8b949e; font-size: .95rem; }
+  code { background: #21262d; padding: 2px 6px; border-radius: 4px; font-size: .9em; }
+  footer { margin-top: 56px; color: #6e7681; font-size: .85rem; border-top: 1px solid #21262d; padding-top: 20px; }
+  a { color: #58a6ff; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>LixLab <span class="tag">Client</span></h1>
+  <p class="sub">El launcher de LixLab: entra al servidor con un clic y con los mods siempre al día.</p>
+
+  <p>
+    <a class="btn" href="https://github.com/bvnjx/lixlab-dist/releases/latest">Descargar</a>
+    <a class="btn alt" href="https://github.com/bvnjx/lixlab-dist/releases">Todas las versiones</a>
+  </p>
+
+  <div class="card">
+    <h3>🧟 Apocalipsis Z</h3>
+    <p>La ciudad cayó y los muertos caminan. Saquea las ruinas de día, atrinchérate de noche
+       y sobrevive a las noches de horda. Forge 1.20.1 con más de 200 mods.</p>
+  </div>
+
+  <div class="card">
+    <h3>🔄 Se actualiza solo</h3>
+    <p>El launcher revisa si hay versión nueva al abrirse y se actualiza sin que hagas nada.
+       Los mods se sincronizan con verificación <code>sha256</code> antes de cada partida.</p>
+  </div>
+
+  <div class="card">
+    <h3>☕ Java automático</h3>
+    <p>Si no tienes el Java correcto, el launcher lo descarga e instala por su cuenta.
+       No hay que configurar nada.</p>
+  </div>
+
+  <footer>
+    LixLab · hecho en Chile 🇨🇱 ·
+    <a href="terminos.html">Términos de uso</a>
+  </footer>
+</div>
+</body>
+</html>
