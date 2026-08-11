@@ -7,13 +7,14 @@
   },
   "server": {
     "host": "atoms-ballots.tun.ply.gg",
-    "port": 37409
+    "port": 37409,
+    "name": "LixLab · Apocalipsis Z"
   },
   "profiles": [
     {
       "id": "apocalipsis",
-      "name": "Apocalipsis Z",
-      "description": "La ciudad cayo y los muertos caminan. Saquea de dia, atrincherate de noche.",
+      "name": "🧟 Apocalipsis Z",
+      "description": "La ciudad cayó y los muertos caminan. Saquea las ruinas de día, atrinchérate de noche y sobrevive a las noches de horda.",
       "minecraft": {
         "version": "1.20.1"
       },
@@ -25,1152 +26,1382 @@
         {
           "file": "1.20.1-SecurityCraft-v1.10.0.1.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/1.20.1-SecurityCraft-v1.10.0.1.jar",
-          "sha256": "db2f56d0b37006e0de24d53fe94a38d9fd1d10eadf384a719a37c8d15bbb88dc"
+          "sha256": "db2f56d0b37006e0de24d53fe94a38d9fd1d10eadf384a719a37c8d15bbb88dc",
+          "name": "SecurityCraft"
         },
         {
           "file": "1.8.1+1.20.1+forge.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/1.8.1+1.20.1+forge.jar",
-          "sha256": "7d6341c1f3fb6b28f056759ae10de0796d3f57b3e3f975c2082d4670725ea12e"
+          "sha256": "7d6341c1f3fb6b28f056759ae10de0796d3f57b3e3f975c2082d4670725ea12e",
+          "name": "1.8.1+1.20.1+forge"
         },
         {
           "file": "AgeingSpawners-1.20.1-2.0.0.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/AgeingSpawners-1.20.1-2.0.0.jar",
-          "sha256": "d3fbc398171c5625e5ddac02a08e878413884350324008a83dd6cc1363eb6a00"
+          "sha256": "d3fbc398171c5625e5ddac02a08e878413884350324008a83dd6cc1363eb6a00",
+          "name": "AgeingSpawners"
         },
         {
           "file": "AiyCrates-1.20.1-1.0.0.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/AiyCrates-1.20.1-1.0.0.jar",
-          "sha256": "5169df8acf30d9d5a711d7ab9347382c223b86969c5e4e30e5b11c35d95a8e1d"
+          "sha256": "5169df8acf30d9d5a711d7ab9347382c223b86969c5e4e30e5b11c35d95a8e1d",
+          "name": "AiyCrates"
         },
         {
           "file": "AmbientEnvironment-forge-1.20.1-11.0.0.1.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/AmbientEnvironment-forge-1.20.1-11.0.0.1.jar",
-          "sha256": "4889e05ade9095a40886db99e33abbbc50ccd931ae5052db6180da896c68d75d"
+          "sha256": "4889e05ade9095a40886db99e33abbbc50ccd931ae5052db6180da896c68d75d",
+          "name": "AmbientEnvironment"
         },
         {
           "file": "AmbientSounds_FORGE_v6.3.4_mc1.20.1.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/AmbientSounds_FORGE_v6.3.4_mc1.20.1.jar",
-          "sha256": "1368504e00bc50ba268d0f73558176889000ce11cad42dbab12e33a59d645495"
+          "sha256": "1368504e00bc50ba268d0f73558176889000ce11cad42dbab12e33a59d645495",
+          "name": "AmbientSounds"
         },
         {
           "file": "AnvilNeverTooExpensive-1.20.1-1.1.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/AnvilNeverTooExpensive-1.20.1-1.1.jar",
-          "sha256": "88cb2b1b43658cf867f5f4c3b5c5b10469b3a784dfe69046cfd1ed16efaef6bb"
+          "sha256": "88cb2b1b43658cf867f5f4c3b5c5b10469b3a784dfe69046cfd1ed16efaef6bb",
+          "name": "AnvilNeverTooExpensive"
         },
         {
           "file": "ApothicAttributes-1.20.1-1.3.7.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/ApothicAttributes-1.20.1-1.3.7.jar",
-          "sha256": "68487b11c0d4e2f67a85f2b04bf65e99ac15294f2923f4391f83e9542293187a"
+          "sha256": "68487b11c0d4e2f67a85f2b04bf65e99ac15294f2923f4391f83e9542293187a",
+          "name": "ApothicAttributes"
         },
         {
           "file": "Atlas-Lib-1.20.1-1.1.12.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/Atlas-Lib-1.20.1-1.1.12.jar",
-          "sha256": "8cc9b5b46e65affed0c38aa54da6870ec4e820364c654c4dd2bb70a94ba39c50"
+          "sha256": "8cc9b5b46e65affed0c38aa54da6870ec4e820364c654c4dd2bb70a94ba39c50",
+          "name": "Atlas Lib"
         },
         {
           "file": "BadMobs-1.20.1-19.0.4.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/BadMobs-1.20.1-19.0.4.jar",
-          "sha256": "b36e64f510404c0984d7d5358e6e99937516d0eeab3ec534eaa638c8b29dfd85"
+          "sha256": "b36e64f510404c0984d7d5358e6e99937516d0eeab3ec534eaa638c8b29dfd85",
+          "name": "BadMobs"
         },
         {
           "file": "BadOptimizations-2.4.1-1.20.1.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/BadOptimizations-2.4.1-1.20.1.jar",
-          "sha256": "3da53cdf856757d9ec7df0be86bc23b2c7d67a019b490f8f64317d4d9b77cac8"
+          "sha256": "3da53cdf856757d9ec7df0be86bc23b2c7d67a019b490f8f64317d4d9b77cac8",
+          "name": "BadOptimizations"
         },
         {
           "file": "Bookshelf-Forge-1.20.1-20.2.15.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/Bookshelf-Forge-1.20.1-20.2.15.jar",
-          "sha256": "7980d4a0beed1dcd2c283cf65f3c93f6b0085833f3ac490014979c95f1dfaf67"
+          "sha256": "7980d4a0beed1dcd2c283cf65f3c93f6b0085833f3ac490014979c95f1dfaf67",
+          "name": "Bookshelf"
         },
         {
           "file": "Clumps-forge-1.20.1-12.0.0.4.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/Clumps-forge-1.20.1-12.0.0.4.jar",
-          "sha256": "1d1cfcf386f182b1d0bdbe4bd4fc57b96234e8c7468e95e1575ad4dd6433243a"
+          "sha256": "1d1cfcf386f182b1d0bdbe4bd4fc57b96234e8c7468e95e1575ad4dd6433243a",
+          "name": "Clumps"
         },
         {
           "file": "Controlling-forge-1.20.1-12.0.2.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/Controlling-forge-1.20.1-12.0.2.jar",
-          "sha256": "516308a93824119f6a1ebc75425aa21ee8f8de0c331942793a054ba6d9c24944"
+          "sha256": "516308a93824119f6a1ebc75425aa21ee8f8de0c331942793a054ba6d9c24944",
+          "name": "Controlling"
         },
         {
           "file": "Corgilib-Forge-1.20.1-4.0.3.4.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/Corgilib-Forge-1.20.1-4.0.3.4.jar",
-          "sha256": "9e638c7e73d997bb4ecba4aa40de90e89dd15fdbc4235fb997eed9ad43c10cd3"
+          "sha256": "9e638c7e73d997bb4ecba4aa40de90e89dd15fdbc4235fb997eed9ad43c10cd3",
+          "name": "Corgilib"
         },
         {
           "file": "CraftPresence-2.7.1+1.20.1-forge.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/CraftPresence-2.7.1+1.20.1-forge.jar",
-          "sha256": "ace7656dcf8878cf05e02b2691eccb5163fe9de94424fe83008901a9cd0679a7"
+          "sha256": "ace7656dcf8878cf05e02b2691eccb5163fe9de94424fe83008901a9cd0679a7",
+          "name": "CraftPresence"
         },
         {
           "file": "CrashAssistant-forge-1.19-1.20.1-1.11.3.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/CrashAssistant-forge-1.19-1.20.1-1.11.3.jar",
-          "sha256": "87b3ca336ce3690791c4a0b988dd856633395835ed430c81f923fbfdfc109a09"
+          "sha256": "87b3ca336ce3690791c4a0b988dd856633395835ed430c81f923fbfdfc109a09",
+          "name": "CrashAssistant"
         },
         {
           "file": "CreativeCore_FORGE_v2.12.35_mc1.20.1.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/CreativeCore_FORGE_v2.12.35_mc1.20.1.jar",
-          "sha256": "2c5e9efe5b256b35be24dafea2f8e26e829793fc144e95eeceabf9f1f4e601f2"
+          "sha256": "2c5e9efe5b256b35be24dafea2f8e26e829793fc144e95eeceabf9f1f4e601f2",
+          "name": "CreativeCore"
         },
         {
           "file": "Data_Anchor-forge-1.20.1-1.0.0.20.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/Data_Anchor-forge-1.20.1-1.0.0.20.jar",
-          "sha256": "fcbfd48ac170e044099492fb075a57039d806258559c1fb871925d40d1c6e396"
+          "sha256": "fcbfd48ac170e044099492fb075a57039d806258559c1fb871925d40d1c6e396",
+          "name": "Data Anchor"
         },
         {
           "file": "EnchantmentDescriptions-Forge-1.20.1-17.1.21.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/EnchantmentDescriptions-Forge-1.20.1-17.1.21.jar",
-          "sha256": "909d1941d4ef6e4b7336738ee31380d6e1117c3c22feb70b64fed47f1cba2b07"
+          "sha256": "909d1941d4ef6e4b7336738ee31380d6e1117c3c22feb70b64fed47f1cba2b07",
+          "name": "EnchantmentDescriptions"
         },
         {
           "file": "Enhanced-Celestials-forge-1.20.1-5.0.3.2.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/Enhanced-Celestials-forge-1.20.1-5.0.3.2.jar",
-          "sha256": "96d9cf46d8c77cf9e23a33b2273d8fca1456bd149a1bd979ed05adf37fc19e94"
+          "sha256": "96d9cf46d8c77cf9e23a33b2273d8fca1456bd149a1bd979ed05adf37fc19e94",
+          "name": "Enhanced Celestials"
         },
         {
           "file": "EnhancedVisuals_FORGE_v1.8.2_mc1.20.1.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/EnhancedVisuals_FORGE_v1.8.2_mc1.20.1.jar",
-          "sha256": "2590c1a56b1a6c8236d460d637da5fdddf4e2c6a0bc70b9a78c762f3e75e428b"
+          "sha256": "2590c1a56b1a6c8236d460d637da5fdddf4e2c6a0bc70b9a78c762f3e75e428b",
+          "name": "EnhancedVisuals"
         },
         {
           "file": "EuphoriaPatcher-1.9.2-r5.8.1-forge.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/EuphoriaPatcher-1.9.2-r5.8.1-forge.jar",
-          "sha256": "a4b3b925ef9cc1ec736f8e073f67d02381eb231d96950017992c307562e6244f"
+          "sha256": "a4b3b925ef9cc1ec736f8e073f67d02381eb231d96950017992c307562e6244f",
+          "name": "EuphoriaPatcher r5.8.1"
         },
         {
           "file": "FarmersDelight-1.20.1-1.2.10.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/FarmersDelight-1.20.1-1.2.10.jar",
-          "sha256": "32404e9bf43fb8b8b1602e7d561a3831117d6b167c2b77b82dfb1515d08744f0"
+          "sha256": "32404e9bf43fb8b8b1602e7d561a3831117d6b167c2b77b82dfb1515d08744f0",
+          "name": "FarmersDelight"
         },
         {
           "file": "FastSuite-1.20.1-5.1.2.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/FastSuite-1.20.1-5.1.2.jar",
-          "sha256": "5e05cb3ce05785a0061a41b7a83443074a6c26dd7d9db75c453fa2487481d54e"
+          "sha256": "5e05cb3ce05785a0061a41b7a83443074a6c26dd7d9db75c453fa2487481d54e",
+          "name": "FastSuite"
         },
         {
           "file": "GlitchCore-forge-1.20.1-0.0.1.1.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/GlitchCore-forge-1.20.1-0.0.1.1.jar",
-          "sha256": "e42a8b513da08a910c133caeafad9fc2fcc22fdaaa2eb3e2516e9112a5a0db61"
+          "sha256": "e42a8b513da08a910c133caeafad9fc2fcc22fdaaa2eb3e2516e9112a5a0db61",
+          "name": "GlitchCore"
         },
         {
           "file": "ImmediatelyFast-Forge-1.5.4+1.20.4.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/ImmediatelyFast-Forge-1.5.4+1.20.4.jar",
-          "sha256": "da781a31b2c8d8a845ed48c89b6463f1df3f2c655de10d8d4f5bed8123ff68a8"
+          "sha256": "da781a31b2c8d8a845ed48c89b6463f1df3f2c655de10d8d4f5bed8123ff68a8",
+          "name": "ImmediatelyFast"
         },
         {
           "file": "IrisSearch-1.2.0-forge.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/IrisSearch-1.2.0-forge.jar",
-          "sha256": "584485676bdad39df90d38a6730d132e6dff966683a8a2359d8269c919a1c07e"
+          "sha256": "584485676bdad39df90d38a6730d132e6dff966683a8a2359d8269c919a1c07e",
+          "name": "IrisSearch"
         },
         {
           "file": "Item-Obliterator-NeoForge-MC1.20.1-2.3.1.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/Item-Obliterator-NeoForge-MC1.20.1-2.3.1.jar",
-          "sha256": "a0de109d3405fbf4290e10df4f812eadd5125debb16ea7e9d908acbbabcb516b"
+          "sha256": "a0de109d3405fbf4290e10df4f812eadd5125debb16ea7e9d908acbbabcb516b",
+          "name": "Item Obliterator"
         },
         {
           "file": "Item-Scrapper-Pack-Armor-Tools.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/Item-Scrapper-Pack-Armor-Tools.jar",
-          "sha256": "84d4402d19e9687839710ff9c5c837c53c994a6f8478458404a8fdb94afc8fab"
+          "sha256": "84d4402d19e9687839710ff9c5c837c53c994a6f8478458404a8fdb94afc8fab",
+          "name": "Item Scrapper Pack Armor Tools"
         },
         {
           "file": "Item-Scrapper-Pack-TACZ.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/Item-Scrapper-Pack-TACZ.jar",
-          "sha256": "abcdc3143deb4b486b5a2a213f48b84ecd536bfdcf8d41ac4a5b2ab34e23259c"
+          "sha256": "abcdc3143deb4b486b5a2a213f48b84ecd536bfdcf8d41ac4a5b2ab34e23259c",
+          "name": "Item Scrapper Pack TACZ"
         },
         {
           "file": "Jade-1.20.1-Forge-11.13.2.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/Jade-1.20.1-Forge-11.13.2.jar",
-          "sha256": "31949971a7a8d5a5bc95ad9d400cbedfd2d65ffbfb3cea7c0b2fa3b47431a0a5"
+          "sha256": "31949971a7a8d5a5bc95ad9d400cbedfd2d65ffbfb3cea7c0b2fa3b47431a0a5",
+          "name": "Jade"
         },
         {
           "file": "Keerdm-Zombie-Apocalypse-Essentials-TACZ-1.42.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/Keerdm-Zombie-Apocalypse-Essentials-TACZ-1.42.jar",
-          "sha256": "1b9db7636db3a1bcfb015d19c6d44b663e454f05e12e472d128c60f2b5214d3e"
+          "sha256": "1b9db7636db3a1bcfb015d19c6d44b663e454f05e12e472d128c60f2b5214d3e",
+          "name": "Keerdm Zombie Apocalypse Essentials TACZ"
         },
         {
           "file": "MouseTweaks-forge-mc1.20.1-2.25.1.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/MouseTweaks-forge-mc1.20.1-2.25.1.jar",
-          "sha256": "6c27d16aa715ac6613a55fc463739e2c7b78279e4e4c4cede299e4a2d4a70f08"
+          "sha256": "6c27d16aa715ac6613a55fc463739e2c7b78279e4e4c4cede299e4a2d4a70f08",
+          "name": "MouseTweaks"
         },
         {
           "file": "MutantMonsters-v8.0.7-1.20.1-Forge.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/MutantMonsters-v8.0.7-1.20.1-Forge.jar",
-          "sha256": "d378814520e3a630ca74ba629e9252066e51df983a44568c85234114ba909108"
+          "sha256": "d378814520e3a630ca74ba629e9252066e51df983a44568c85234114ba909108",
+          "name": "MutantMonsters"
         },
         {
           "file": "MyServerIsCompatible-1.20-1.0.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/MyServerIsCompatible-1.20-1.0.jar",
-          "sha256": "74bd64fe43eefa4a81006184b7558ceff20f6579597c0c35baeb44e70cfaaf51"
+          "sha256": "74bd64fe43eefa4a81006184b7558ceff20f6579597c0c35baeb44e70cfaaf51",
+          "name": "MyServerIsCompatible"
         },
         {
           "file": "NaNny-1.0.1.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/NaNny-1.0.1.jar",
-          "sha256": "ded54029203f0bf5f6564216ff76052b46970dd9c583080566c9e0f33cddf11f"
+          "sha256": "ded54029203f0bf5f6564216ff76052b46970dd9c583080566c9e0f33cddf11f",
+          "name": "NaNny"
         },
         {
           "file": "Necronomicon-Forge-1.6.0+1.20.1.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/Necronomicon-Forge-1.6.0+1.20.1.jar",
-          "sha256": "403b23457288c624a55feb90d5e813c88c23a611bc42cda397c4bfac94b4c3a3"
+          "sha256": "403b23457288c624a55feb90d5e813c88c23a611bc42cda397c4bfac94b4c3a3",
+          "name": "Necronomicon"
         },
         {
           "file": "Not-Enough-Recipe-Book-FORGE-0.4.1+1.20.1.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/Not-Enough-Recipe-Book-FORGE-0.4.1+1.20.1.jar",
-          "sha256": "8f05afb56310b21e91d2f1d1200a9c0d98a34a9689b9b6288a6507c0498b299d"
+          "sha256": "8f05afb56310b21e91d2f1d1200a9c0d98a34a9689b9b6288a6507c0498b299d",
+          "name": "Not Enough Recipe Book"
         },
         {
           "file": "OctoLib-FORGE-0.5.0.1+1.20.1.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/OctoLib-FORGE-0.5.0.1+1.20.1.jar",
-          "sha256": "5bb146c691f2c5054752f006a61aab6335ecb1cd9718a9643733de5367971047"
+          "sha256": "5bb146c691f2c5054752f006a61aab6335ecb1cd9718a9643733de5367971047",
+          "name": "OctoLib"
         },
         {
           "file": "OpenLoader-Forge-1.20.1-19.0.5.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/OpenLoader-Forge-1.20.1-19.0.5.jar",
-          "sha256": "56da03448ce1c63cb0f41e99ae38c5857d663886f9249c234f18b7c0de44b151"
+          "sha256": "56da03448ce1c63cb0f41e99ae38c5857d663886f9249c234f18b7c0de44b151",
+          "name": "OpenLoader"
         },
         {
           "file": "Patchouli-1.20.1-85-FORGE.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/Patchouli-1.20.1-85-FORGE.jar",
-          "sha256": "05f7b5d52f6b8f0fd7f8b4822fa07a192d1394d83a264309c9d221d6d4fd21c5"
+          "sha256": "05f7b5d52f6b8f0fd7f8b4822fa07a192d1394d83a264309c9d221d6d4fd21c5",
+          "name": "Patchouli"
         },
         {
           "file": "PhilipsRuins1.20.1-5.7.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/PhilipsRuins1.20.1-5.7.jar",
-          "sha256": "5cdafaca61c34ad7e38aea13033fcb5e8cadc557226be4fbcc0743db2222fbe3"
+          "sha256": "5cdafaca61c34ad7e38aea13033fcb5e8cadc557226be4fbcc0743db2222fbe3",
+          "name": "PhilipsRuins1.20.1"
         },
         {
           "file": "Placebo-1.20.1-8.6.3.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/Placebo-1.20.1-8.6.3.jar",
-          "sha256": "1cdf906cfbcbb5e5be2ef1bb721f79a24b01bd2ac559c8cdbfb7693f62421571"
+          "sha256": "1cdf906cfbcbb5e5be2ef1bb721f79a24b01bd2ac559c8cdbfb7693f62421571",
+          "name": "Placebo"
         },
         {
           "file": "PuzzlesLib-v8.1.33-1.20.1-Forge.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/PuzzlesLib-v8.1.33-1.20.1-Forge.jar",
-          "sha256": "f3077a9f817629b8e8929c1951042d1a1adc62d30b72adebd54d2b074a4faf4f"
+          "sha256": "f3077a9f817629b8e8929c1951042d1a1adc62d30b72adebd54d2b074a4faf4f",
+          "name": "PuzzlesLib"
         },
         {
           "file": "ScalingMobs-2.4.3.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/ScalingMobs-2.4.3.jar",
-          "sha256": "d4ae69cabcaefd914f4a1601b7e33d831310350dedbd490e285b8d36c89ef5fb"
+          "sha256": "d4ae69cabcaefd914f4a1601b7e33d831310350dedbd490e285b8d36c89ef5fb",
+          "name": "ScalingMobs"
         },
         {
           "file": "Searchables-forge-1.20.1-1.0.3.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/Searchables-forge-1.20.1-1.0.3.jar",
-          "sha256": "c1a76e93886210574d3f298c0461241fb711e52ac22c7a04d3236840f29e6576"
+          "sha256": "c1a76e93886210574d3f298c0461241fb711e52ac22c7a04d3236840f29e6576",
+          "name": "Searchables"
         },
         {
           "file": "SereneSeasons-forge-1.20.1-9.1.0.2.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/SereneSeasons-forge-1.20.1-9.1.0.2.jar",
-          "sha256": "c4f1b6bcbd2c4fd8c54866cc217f455d2e8262e35ac218f8fb628c79bc76ff8e"
+          "sha256": "c4f1b6bcbd2c4fd8c54866cc217f455d2e8262e35ac218f8fb628c79bc76ff8e",
+          "name": "SereneSeasons"
         },
         {
           "file": "ShoulderSurfing-Forge-1.20.1-4.22.1.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/ShoulderSurfing-Forge-1.20.1-4.22.1.jar",
-          "sha256": "a2369faca896086dc3974ab5b9e60f4158acef00bc434252e1cf97befa24caf4"
+          "sha256": "a2369faca896086dc3974ab5b9e60f4158acef00bc434252e1cf97befa24caf4",
+          "name": "ShoulderSurfing"
         },
         {
           "file": "Skys-Overworld-Netherite-2.8-1.20.1-Forge.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/Skys-Overworld-Netherite-2.8-1.20.1-Forge.jar",
-          "sha256": "153d2caffbb6908bfd27f9046ac76a96466aa3724fed12fa390bc708ef97444c"
+          "sha256": "153d2caffbb6908bfd27f9046ac76a96466aa3724fed12fa390bc708ef97444c",
+          "name": "Skys Overworld Netherite"
         },
         {
           "file": "SmartBrainLib-forge-1.20.1-1.15.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/SmartBrainLib-forge-1.20.1-1.15.jar",
-          "sha256": "665f65f77cc36379a9ae11c09db5d9efa1ad4f8d017edc8f65903ff27cacdb1d"
+          "sha256": "665f65f77cc36379a9ae11c09db5d9efa1ad4f8d017edc8f65903ff27cacdb1d",
+          "name": "SmartBrainLib"
         },
         {
           "file": "SoLOnion_FORGE_v1.4.5_mc1.20.1.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/SoLOnion_FORGE_v1.4.5_mc1.20.1.jar",
-          "sha256": "adbaba6124ece47ef98bf60eeba0c87c89cdbb5cfd75ebf14f24967fcc622b98"
+          "sha256": "adbaba6124ece47ef98bf60eeba0c87c89cdbb5cfd75ebf14f24967fcc622b98",
+          "name": "SoLOnion"
         },
         {
           "file": "Steam_Rails-1.7.2+forge-mc1.20.1.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/Steam_Rails-1.7.2+forge-mc1.20.1.jar",
-          "sha256": "da82605f01a4a43ea0907467583704253c2e718392d44be1cd7b9761edcb0da1"
+          "sha256": "da82605f01a4a43ea0907467583704253c2e718392d44be1cd7b9761edcb0da1",
+          "name": "Steam Rails"
         },
         {
           "file": "Terralith_1.20.x_v2.5.4.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/Terralith_1.20.x_v2.5.4.jar",
-          "sha256": "8f65f309d8f2723754bf4b60c7b5763d3ab6ed04b01c172109ba6564e981b95f"
+          "sha256": "8f65f309d8f2723754bf4b60c7b5763d3ab6ed04b01c172109ba6564e981b95f",
+          "name": "Terralith"
         },
         {
           "file": "The-Hordes-1.20.1-1.5.4c.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/The-Hordes-1.20.1-1.5.4c.jar",
-          "sha256": "dd7d08839746aea2ded9974b2e506bb65e1e8c3423a481e0ab8bccffa1aa7a35"
+          "sha256": "dd7d08839746aea2ded9974b2e506bb65e1e8c3423a481e0ab8bccffa1aa7a35",
+          "name": "The Hordes"
         },
         {
           "file": "Tips-Forge-1.20.1-12.1.9.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/Tips-Forge-1.20.1-12.1.9.jar",
-          "sha256": "f7021a7b68ac563210ff9e8fa33cf3b1828fa55f2dae5c769f48b1cb8feb7e80"
+          "sha256": "f7021a7b68ac563210ff9e8fa33cf3b1828fa55f2dae5c769f48b1cb8feb7e80",
+          "name": "Tips"
         },
         {
           "file": "ToastControl-1.20.1-8.0.3.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/ToastControl-1.20.1-8.0.3.jar",
-          "sha256": "e9923900cabbc12ffde7cc36113936f24b773bb33b22c19e4109cca52fc55ad6"
+          "sha256": "e9923900cabbc12ffde7cc36113936f24b773bb33b22c19e4109cca52fc55ad6",
+          "name": "ToastControl"
         },
         {
           "file": "ToolBelt-1.20.1-1.20.02.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/ToolBelt-1.20.1-1.20.02.jar",
-          "sha256": "717cad5de08223433f9f5ae467cf731288e69564eb7c4c19bcc2b49bc9191c3c"
+          "sha256": "717cad5de08223433f9f5ae467cf731288e69564eb7c4c19bcc2b49bc9191c3c",
+          "name": "ToolBelt"
         },
         {
           "file": "TslatEffectsLib-forge-1.20.1-1.8.7.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/TslatEffectsLib-forge-1.20.1-1.8.7.jar",
-          "sha256": "a4895a04fb91e2a15af29ac515a13bc764f1fe54096fc19df09a26782670f69c"
+          "sha256": "a4895a04fb91e2a15af29ac515a13bc764f1fe54096fc19df09a26782670f69c",
+          "name": "TslatEffectsLib"
         },
         {
           "file": "UniLib-1.2.1+1.20.1-forge.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/UniLib-1.2.1+1.20.1-forge.jar",
-          "sha256": "10a239c60c12e7df14d10d23911b240249d3692ccc8db268ef8d7d9f93390b8a"
+          "sha256": "10a239c60c12e7df14d10d23911b240249d3692ccc8db268ef8d7d9f93390b8a",
+          "name": "UniLib"
         },
         {
           "file": "XaerosWorldMap_1.39.12_Forge_1.20.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/XaerosWorldMap_1.39.12_Forge_1.20.jar",
-          "sha256": "c312ae6078bca65c179c74d3916fd22bff5dae70eef3c976b0ea7f3326d1917b"
+          "sha256": "c312ae6078bca65c179c74d3916fd22bff5dae70eef3c976b0ea7f3326d1917b",
+          "name": "XaerosWorldMap"
         },
         {
           "file": "Xaeros_Minimap_FP24.2.0_Forge_1.20.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/Xaeros_Minimap_FP24.2.0_Forge_1.20.jar",
-          "sha256": "1134c9856a28acfb6ffede3fe936a4ede981cb360db60006b01a34f8078fd487"
+          "sha256": "1134c9856a28acfb6ffede3fe936a4ede981cb360db60006b01a34f8078fd487",
+          "name": "Xaeros Minimap FP24.2.0"
         },
         {
           "file": "YungsApi-1.20-Forge-4.0.6.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/YungsApi-1.20-Forge-4.0.6.jar",
-          "sha256": "101c30d01d0cf9d86190f578eb1e43bd06b64092e95662a00ef52946f472c7b1"
+          "sha256": "101c30d01d0cf9d86190f578eb1e43bd06b64092e95662a00ef52946f472c7b1",
+          "name": "YungsApi"
         },
         {
           "file": "YungsBetterMineshafts-1.20-Forge-4.0.4.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/YungsBetterMineshafts-1.20-Forge-4.0.4.jar",
-          "sha256": "6632e7bcc58325098e85bcb755483de7cb3af92a5ea548f3b5c0162cbf0dc1dc"
+          "sha256": "6632e7bcc58325098e85bcb755483de7cb3af92a5ea548f3b5c0162cbf0dc1dc",
+          "name": "YungsBetterMineshafts"
         },
         {
           "file": "access_denied-6.2.1.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/access_denied-6.2.1.jar",
-          "sha256": "fab1793518b901d12156203757becf5aabbf4c9a6fe066ca9550ec50cdac26f7"
+          "sha256": "fab1793518b901d12156203757becf5aabbf4c9a6fe066ca9550ec50cdac26f7",
+          "name": "Access denied"
         },
         {
           "file": "alexsmobs-1.22.9.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/alexsmobs-1.22.9.jar",
-          "sha256": "16bc5bcc19db9029c24f951346ec71098e6f5b0afef96e61894a2e9407aad37c"
+          "sha256": "16bc5bcc19db9029c24f951346ec71098e6f5b0afef96e61894a2e9407aad37c",
+          "name": "Alexsmobs"
         },
         {
           "file": "alltheleaks-1.1.1+1.20.1-forge.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/alltheleaks-1.1.1+1.20.1-forge.jar",
-          "sha256": "7b8e945da294b745e6aed9f88f28e232a767e032d7c2b8137a8ef36421d9fb33"
+          "sha256": "7b8e945da294b745e6aed9f88f28e232a767e032d7c2b8137a8ef36421d9fb33",
+          "name": "Alltheleaks"
         },
         {
           "file": "almanac-1.20.x-forge-1.0.2.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/almanac-1.20.x-forge-1.0.2.jar",
-          "sha256": "b8e0b42329c11739201d132bc99720e8205badc4ce862b30e4eec04b833e3419"
+          "sha256": "b8e0b42329c11739201d132bc99720e8205badc4ce862b30e4eec04b833e3419",
+          "name": "Almanac"
         },
         {
           "file": "appleskin-forge-mc1.20.1-2.5.1.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/appleskin-forge-mc1.20.1-2.5.1.jar",
-          "sha256": "e12419e43e3babc810af289403c5cd96bd7f09809b389acc6bb2f122b4b2a426"
+          "sha256": "e12419e43e3babc810af289403c5cd96bd7f09809b389acc6bb2f122b4b2a426",
+          "name": "Appleskin"
         },
         {
           "file": "architectury-9.2.14-forge.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/architectury-9.2.14-forge.jar",
-          "sha256": "218b471d0b8a1f6cda14cfc1beb9eeb0df54304500acc6c5613d9b88ec65d9af"
+          "sha256": "218b471d0b8a1f6cda14cfc1beb9eeb0df54304500acc6c5613d9b88ec65d9af",
+          "name": "Architectury"
         },
         {
           "file": "athena-forge-1.20.1-3.1.2.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/athena-forge-1.20.1-3.1.2.jar",
-          "sha256": "64eec9cffb8847a459536096ac396b135ffb07c7d9d13c6a47d9cd7b251276ab"
+          "sha256": "64eec9cffb8847a459536096ac396b135ffb07c7d9d13c6a47d9cd7b251276ab",
+          "name": "Athena"
         },
         {
           "file": "auudio_forge_1.0.3_MC_1.19.3.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/auudio_forge_1.0.3_MC_1.19.3.jar",
-          "sha256": "e4b77a49a41d8ec4015c5124b9b26ee89608dabf13829730f268c5be990dfe27"
+          "sha256": "e4b77a49a41d8ec4015c5124b9b26ee89608dabf13829730f268c5be990dfe27",
+          "name": "Auudio MC"
         },
         {
           "file": "baguettelib-1.20.1-Forge-1.1.6.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/baguettelib-1.20.1-Forge-1.1.6.jar",
-          "sha256": "2e61c531121902499b558aa22b9860a5a1d7aaa26f9b5ea727d8a758d808470f"
+          "sha256": "2e61c531121902499b558aa22b9860a5a1d7aaa26f9b5ea727d8a758d808470f",
+          "name": "Baguettelib"
         },
         {
           "file": "balm-forge-1.20.1-7.3.38-all.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/balm-forge-1.20.1-7.3.38-all.jar",
-          "sha256": "cbe8008218f0f574bc1f78b532cac5f978c33bf36ae2e14805340eab445fdb08"
+          "sha256": "cbe8008218f0f574bc1f78b532cac5f978c33bf36ae2e14805340eab445fdb08",
+          "name": "Balm"
         },
         {
           "file": "bbb-forge-2.0pre4.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/bbb-forge-2.0pre4.jar",
-          "sha256": "9127d9013708f72784f538166db42451e3fae5d0f7f348d2675751eb26837d33"
+          "sha256": "9127d9013708f72784f538166db42451e3fae5d0f7f348d2675751eb26837d33",
+          "name": "Bbb 2.0pre4"
         },
         {
           "file": "bbs-1.20.1-0.1.3-forge.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/bbs-1.20.1-0.1.3-forge.jar",
-          "sha256": "a4d5e0ba72d5ef0fe1cb8415919d93201bc8725e2ad81b0eefb00bb7cd9bad97"
+          "sha256": "a4d5e0ba72d5ef0fe1cb8415919d93201bc8725e2ad81b0eefb00bb7cd9bad97",
+          "name": "Bbs"
         },
         {
           "file": "betterbiomereblend-1.5.3.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/betterbiomereblend-1.5.3.jar",
-          "sha256": "76118a2916c342ae6926e22a0e697797b30a01a4850c9e2553d8c17652fd6809"
+          "sha256": "76118a2916c342ae6926e22a0e697797b30a01a4850c9e2553d8c17652fd6809",
+          "name": "Betterbiomereblend"
         },
         {
           "file": "binocularsmod-1.02.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/binocularsmod-1.02.jar",
-          "sha256": "d4d5bf00000fc464d5d2d1ee500cf33943e3b284e078c2f01886a2c635fbfaff"
+          "sha256": "d4d5bf00000fc464d5d2d1ee500cf33943e3b284e078c2f01886a2c635fbfaff",
+          "name": "Binocularsmod"
         },
         {
           "file": "biomereplacer-2.1-hippo-forge.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/biomereplacer-2.1-hippo-forge.jar",
-          "sha256": "43261143027d661aa9e8fd44a0770aca9ba13aa1a7fba05ff9c35dcb2010cd60"
+          "sha256": "43261143027d661aa9e8fd44a0770aca9ba13aa1a7fba05ff9c35dcb2010cd60",
+          "name": "Biomereplacer hippo"
         },
         {
           "file": "biomesize-1.20.1-1.6.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/biomesize-1.20.1-1.6.jar",
-          "sha256": "54888a2d5bb46007498478239f1b53ea9be222cc06b59eb04fe5a65d00a36f85"
+          "sha256": "54888a2d5bb46007498478239f1b53ea9be222cc06b59eb04fe5a65d00a36f85",
+          "name": "Biomesize"
         },
         {
           "file": "carryon-forge-1.20.1-2.1.2.7.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/carryon-forge-1.20.1-2.1.2.7.jar",
-          "sha256": "d7470921fc5ff988788d43409083f62478aecc91f4b81d7e6b63c80c933d4613"
+          "sha256": "d7470921fc5ff988788d43409083f62478aecc91f4b81d7e6b63c80c933d4613",
+          "name": "Carryon"
         },
         {
           "file": "charmofundying-forge-6.5.0+1.20.1.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/charmofundying-forge-6.5.0+1.20.1.jar",
-          "sha256": "9e0dc303fe2b96db0707487bff0e1cb1173d4e54367364130655c25f2c219f2f"
+          "sha256": "9e0dc303fe2b96db0707487bff0e1cb1173d4e54367364130655c25f2c219f2f",
+          "name": "Charmofundying"
         },
         {
           "file": "chat_heads-0.15.0-forge-1.20.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/chat_heads-0.15.0-forge-1.20.jar",
-          "sha256": "d35e37f89c72dcdff90b9067c240aca75125ffd4232cfbe60bc096046d833a2d"
+          "sha256": "d35e37f89c72dcdff90b9067c240aca75125ffd4232cfbe60bc096046d833a2d",
+          "name": "Chat heads"
         },
         {
           "file": "citadel-2.6.3-1.20.1.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/citadel-2.6.3-1.20.1.jar",
-          "sha256": "56c7ab87348a5292583aac787b6cf11b5193e77f02af1d17ea75a96f8640b3ce"
+          "sha256": "56c7ab87348a5292583aac787b6cf11b5193e77f02af1d17ea75a96f8640b3ce",
+          "name": "Citadel"
         },
         {
           "file": "cleanswing-1.20-1.8.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/cleanswing-1.20-1.8.jar",
-          "sha256": "beb67f1af48b8ba77a8de1a48ea08d97a520a32b490bb4fd9a0da1dfd485a699"
+          "sha256": "beb67f1af48b8ba77a8de1a48ea08d97a520a32b490bb4fd9a0da1dfd485a699",
+          "name": "Cleanswing"
         },
         {
           "file": "cloth-config-11.1.136-forge.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/cloth-config-11.1.136-forge.jar",
-          "sha256": "1e895e85cf5b1e1905ef3178ec155c8badfe22a1577b92c09143a5aa1f4ce0f2"
+          "sha256": "1e895e85cf5b1e1905ef3178ec155c8badfe22a1577b92c09143a5aa1f4ce0f2",
+          "name": "Cloth config"
         },
         {
           "file": "cofh_core-1.20.1-11.0.2.56.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/cofh_core-1.20.1-11.0.2.56.jar",
-          "sha256": "d7cd3ec8083e294e17cb50fe607b416c1dc83ce885e53ba3995d86e028f790e0"
+          "sha256": "d7cd3ec8083e294e17cb50fe607b416c1dc83ce885e53ba3995d86e028f790e0",
+          "name": "Cofh core"
         },
         {
           "file": "collective-1.20.1-8.13.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/collective-1.20.1-8.13.jar",
-          "sha256": "80dd754b75c530768904e912ace11e0cf4deac7d1784b883dbeaead082469cd2"
+          "sha256": "80dd754b75c530768904e912ace11e0cf4deac7d1784b883dbeaead082469cd2",
+          "name": "Collective"
         },
         {
           "file": "colorwheel-forge-1.2.2+mc1.20.1.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/colorwheel-forge-1.2.2+mc1.20.1.jar",
-          "sha256": "0ed167fc290f7c45f8f5fff4e49cc70f546d4aaab42581d2bd0baf96aa74d500"
+          "sha256": "0ed167fc290f7c45f8f5fff4e49cc70f546d4aaab42581d2bd0baf96aa74d500",
+          "name": "Colorwheel"
         },
         {
           "file": "colorwheel_patcher-forge-1.0.4+mc1.20.1.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/colorwheel_patcher-forge-1.0.4+mc1.20.1.jar",
-          "sha256": "ec96532d30f65a5b28ebe75b466fbfee272eed731e2d39497cc71fb7146695c5"
+          "sha256": "ec96532d30f65a5b28ebe75b466fbfee272eed731e2d39497cc71fb7146695c5",
+          "name": "Colorwheel patcher"
         },
         {
           "file": "combatroll-forge-1.3.3+1.20.1.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/combatroll-forge-1.3.3+1.20.1.jar",
-          "sha256": "e20a4693ff734e5c61dc3fcc32e77c6b850722f2e208728e8643e279d6085b30"
+          "sha256": "e20a4693ff734e5c61dc3fcc32e77c6b850722f2e208728e8643e279d6085b30",
+          "name": "Combatroll"
         },
         {
           "file": "comforts-forge-6.4.0+1.20.1.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/comforts-forge-6.4.0+1.20.1.jar",
-          "sha256": "56398103e0e3821c98f21a5b556d57deb0686b9f50868b4278ecb73cc9d2f42c"
+          "sha256": "56398103e0e3821c98f21a5b556d57deb0686b9f50868b4278ecb73cc9d2f42c",
+          "name": "Comforts"
         },
         {
           "file": "configurableextramobdrops-1.20.1-3.5.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/configurableextramobdrops-1.20.1-3.5.jar",
-          "sha256": "82b03575fc94f5719d47a41d7c6e6f4084a6ff47c06059980a8b84fd37335c83"
+          "sha256": "82b03575fc94f5719d47a41d7c6e6f4084a6ff47c06059980a8b84fd37335c83",
+          "name": "Configurableextramobdrops"
         },
         {
           "file": "coolrain-1.20.1-Forge-1.0.3.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/coolrain-1.20.1-Forge-1.0.3.jar",
-          "sha256": "a8183b429b7a15b876b83256ab7a5038175936f7074f0ff78535016f49b18a2e"
+          "sha256": "a8183b429b7a15b876b83256ab7a5038175936f7074f0ff78535016f49b18a2e",
+          "name": "Coolrain"
         },
         {
           "file": "copycats-3.0.7+mc.1.20.1-forge.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/copycats-3.0.7+mc.1.20.1-forge.jar",
-          "sha256": "bc59446d8aff50924f805286927a1bda3df16c6f4e6f893865f410e581b62f1a"
+          "sha256": "bc59446d8aff50924f805286927a1bda3df16c6f4e6f893865f410e581b62f1a",
+          "name": "Copycats mc.1.20.1"
         },
         {
           "file": "coroutil-forge-1.20.1-1.3.7.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/coroutil-forge-1.20.1-1.3.7.jar",
-          "sha256": "11448808a42c17425cf2ea39701841008683d6ad6e2838a34eef0253251a870f"
+          "sha256": "11448808a42c17425cf2ea39701841008683d6ad6e2838a34eef0253251a870f",
+          "name": "Coroutil"
         },
         {
           "file": "corpse-forge-1.20.1-1.0.23.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/corpse-forge-1.20.1-1.0.23.jar",
-          "sha256": "8d77c5fc8dc981c750a8e66d4665f055457f748f0ce49a303d9bc50347bdbf7c"
+          "sha256": "8d77c5fc8dc981c750a8e66d4665f055457f748f0ce49a303d9bc50347bdbf7c",
+          "name": "Corpse"
         },
         {
           "file": "corpsecurioscompat-1.20.1-Forge-3.1.3.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/corpsecurioscompat-1.20.1-Forge-3.1.3.jar",
-          "sha256": "fd2cb6cf0dc5b66316c265e54e9681883f33d52427e04aded9bf4ef6c20b9fa3"
+          "sha256": "fd2cb6cf0dc5b66316c265e54e9681883f33d52427e04aded9bf4ef6c20b9fa3",
+          "name": "Corpsecurioscompat"
         },
         {
           "file": "create-1.20.1-6.0.8.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/create-1.20.1-6.0.8.jar",
-          "sha256": "6fbb910c367dbce8e4fc7e5bf64b6edd4de980906ed00af8e47e4af843c0d9b0"
+          "sha256": "6fbb910c367dbce8e4fc7e5bf64b6edd4de980906ed00af8e47e4af843c0d9b0",
+          "name": "Create"
         },
         {
           "file": "create_netherless-1.20.1-1.3.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/create_netherless-1.20.1-1.3.jar",
-          "sha256": "8ca7a1030f64636ec82c457826bd10ab0fde9430d23782a3f670e60c817683e0"
+          "sha256": "8ca7a1030f64636ec82c457826bd10ab0fde9430d23782a3f670e60c817683e0",
+          "name": "Create netherless"
         },
         {
           "file": "createdeco-2.0.3-1.20.1-forge.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/createdeco-2.0.3-1.20.1-forge.jar",
-          "sha256": "7d6dd0094d18d6bab64fcd7de680ea736015d1a1ffc472d3fe03122bc7aa0864"
+          "sha256": "7d6dd0094d18d6bab64fcd7de680ea736015d1a1ffc472d3fe03122bc7aa0864",
+          "name": "Createdeco"
         },
         {
           "file": "cupboard-1.20.1-3.5.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/cupboard-1.20.1-3.5.jar",
-          "sha256": "68ac8d4df915d7610eca62edc7ad33e9fe6e938701766739a34f71abfc9bd20d"
+          "sha256": "68ac8d4df915d7610eca62edc7ad33e9fe6e938701766739a34f71abfc9bd20d",
+          "name": "Cupboard"
         },
         {
           "file": "cure-2.0.2-forge-1.20.1.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/cure-2.0.2-forge-1.20.1.jar",
-          "sha256": "542188e04d8553b584087ac86468835f2bc32bfa88171ff9ab4a320c8ae07767"
+          "sha256": "542188e04d8553b584087ac86468835f2bc32bfa88171ff9ab4a320c8ae07767",
+          "name": "Cure"
         },
         {
           "file": "curios-forge-5.14.1+1.20.1.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/curios-forge-5.14.1+1.20.1.jar",
-          "sha256": "1e817919a35b37cf30524aaec73f0ca5130452f23f168f844854df282eb8e51f"
+          "sha256": "1e817919a35b37cf30524aaec73f0ca5130452f23f168f844854df282eb8e51f",
+          "name": "Curios"
         },
         {
           "file": "decorative_blocks-forge-1.20.1-4.1.3.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/decorative_blocks-forge-1.20.1-4.1.3.jar",
-          "sha256": "19bc47b32258dd703b808f76e7b89da1746ecddaec4ad2bd5eaa356c0d2b3d87"
+          "sha256": "19bc47b32258dd703b808f76e7b89da1746ecddaec4ad2bd5eaa356c0d2b3d87",
+          "name": "Decorative blocks"
         },
         {
           "file": "distraction_free_recipes-forge-1.2.1-1.20.1.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/distraction_free_recipes-forge-1.2.1-1.20.1.jar",
-          "sha256": "d781e40238a06c20342e8dca3b067528c8515fa930e9b134e3cc82401afeed04"
+          "sha256": "d781e40238a06c20342e8dca3b067528c8515fa930e9b134e3cc82401afeed04",
+          "name": "Distraction free recipes"
         },
         {
           "file": "drippyloadingscreen_forge_3.1.2_MC_1.20.1.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/drippyloadingscreen_forge_3.1.2_MC_1.20.1.jar",
-          "sha256": "fd548c4b9fd87f9389f74989ff5a41369d315b11826ad6637dafcf84abae50aa"
+          "sha256": "fd548c4b9fd87f9389f74989ff5a41369d315b11826ad6637dafcf84abae50aa",
+          "name": "Drippyloadingscreen MC"
         },
         {
           "file": "dummmmmmy-1.20-2.0.9.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/dummmmmmy-1.20-2.0.9.jar",
-          "sha256": "bfbda7e454cd2cc547578208b3c42a2526a2615b155c76952f6981ba3da0fe89"
+          "sha256": "bfbda7e454cd2cc547578208b3c42a2526a2615b155c76952f6981ba3da0fe89",
+          "name": "Dummmmmmy"
         },
         {
           "file": "dynamiclights-v1.9-mc1.17-1.21.5-mod.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/dynamiclights-v1.9-mc1.17-1.21.5-mod.jar",
-          "sha256": "ebe75b8d8a50cfbbf42daccb78b2d8b80c57e33c866dd4409e5403ffb4c7c7f4"
+          "sha256": "ebe75b8d8a50cfbbf42daccb78b2d8b80c57e33c866dd4409e5403ffb4c7c7f4",
+          "name": "Dynamiclights mod"
         },
         {
           "file": "easy_npc-forge-1.20.1-7.6.0.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/easy_npc-forge-1.20.1-7.6.0.jar",
-          "sha256": "b1b83e11e63e638c12688cb7900c9b109f8aa6fe8915032b8b7a389eb99bead2"
+          "sha256": "b1b83e11e63e638c12688cb7900c9b109f8aa6fe8915032b8b7a389eb99bead2",
+          "name": "Easy npc"
         },
         {
           "file": "easy_npc_config_ui-forge-1.20.1-7.6.0.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/easy_npc_config_ui-forge-1.20.1-7.6.0.jar",
-          "sha256": "59ea8361250decc225d0110046d5b7f21432e00339c96dd01a198c16b79fc76d"
+          "sha256": "59ea8361250decc225d0110046d5b7f21432e00339c96dd01a198c16b79fc76d",
+          "name": "Easy npc config ui"
         },
         {
           "file": "eatinganimation-1.20.1-5.1.0.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/eatinganimation-1.20.1-5.1.0.jar",
-          "sha256": "506ffc2e2bcc5709c8121382c5d0428ca642ceaeebe2a9169c9b0475a83c657c"
+          "sha256": "506ffc2e2bcc5709c8121382c5d0428ca642ceaeebe2a9169c9b0475a83c657c",
+          "name": "Eatinganimation"
         },
         {
           "file": "ecologic_fixes-0.0.1.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/ecologic_fixes-0.0.1.jar",
-          "sha256": "636fd7aac4717f615349c7e890597907a1a548094611f5ebeec7dc7b63cc5864"
+          "sha256": "636fd7aac4717f615349c7e890597907a1a548094611f5ebeec7dc7b63cc5864",
+          "name": "Ecologic fixes"
         },
         {
           "file": "ecologics-forge-1.20.1-2.2.2.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/ecologics-forge-1.20.1-2.2.2.jar",
-          "sha256": "4819b14149cbbaf4b2e7d7c33a921806397e2f34cdc84a37d923ba70eace32db"
+          "sha256": "4819b14149cbbaf4b2e7d7c33a921806397e2f34cdc84a37d923ba70eace32db",
+          "name": "Ecologics"
         },
         {
           "file": "embeddium-0.3.31+mc1.20.1.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/embeddium-0.3.31+mc1.20.1.jar",
-          "sha256": "eed3d1325f2acc2fd4e69bb495e5ccb91d962126ac5330f0582ebc2a3daf47fb"
+          "sha256": "eed3d1325f2acc2fd4e69bb495e5ccb91d962126ac5330f0582ebc2a3daf47fb",
+          "name": "Embeddium"
         },
         {
           "file": "emi-1.1.22+1.20.1+forge.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/emi-1.1.22+1.20.1+forge.jar",
-          "sha256": "877a2831c44ab7a0e1f8da0df92125b42f93c6f9b9e4dd1ceb566d8adc67950a"
+          "sha256": "877a2831c44ab7a0e1f8da0df92125b42f93c6f9b9e4dd1ceb566d8adc67950a",
+          "name": "Emi"
         },
         {
           "file": "entity_model_features_1.20.1-forge-3.0.12.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/entity_model_features_1.20.1-forge-3.0.12.jar",
-          "sha256": "38e003a60865d48b71fc7dd744411905ca23842799c2452b81c5b79e9c5738c6"
+          "sha256": "38e003a60865d48b71fc7dd744411905ca23842799c2452b81c5b79e9c5738c6",
+          "name": "Entity model features"
         },
         {
           "file": "entity_texture_features_1.20.1-forge-7.0.9.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/entity_texture_features_1.20.1-forge-7.0.9.jar",
-          "sha256": "b30b6a2b9d761a57a737624434bd096fa60c39c2b88bdd5c2eb18777bd893d06"
+          "sha256": "b30b6a2b9d761a57a737624434bd096fa60c39c2b88bdd5c2eb18777bd893d06",
+          "name": "Entity texture features"
         },
         {
           "file": "entityculling-forge-1.9.5-mc1.20.1.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/entityculling-forge-1.9.5-mc1.20.1.jar",
-          "sha256": "8f80f3953fc988d8c6b4a88035441cad631fea87a413267526b64543890c02b0"
+          "sha256": "8f80f3953fc988d8c6b4a88035441cad631fea87a413267526b64543890c02b0",
+          "name": "Entityculling"
         },
         {
           "file": "experimentalsettingsdisabler-1.20.1-3.0.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/experimentalsettingsdisabler-1.20.1-3.0.jar",
-          "sha256": "2328664536f9fd48b4b924fc8e62e4dd62d436a7d0ae941bad797414e38d4db3"
+          "sha256": "2328664536f9fd48b4b924fc8e62e4dd62d436a7d0ae941bad797414e38d4db3",
+          "name": "Experimentalsettingsdisabler"
         },
         {
           "file": "explosiveenhancement-1.1.0-1.20.1-client-and-server.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/explosiveenhancement-1.1.0-1.20.1-client-and-server.jar",
-          "sha256": "658f09ff6bfd0c6d44c12215f18103c7e45f851fe6dc2c583b169cf6a157bd7a"
+          "sha256": "658f09ff6bfd0c6d44c12215f18103c7e45f851fe6dc2c583b169cf6a157bd7a",
+          "name": "Explosiveenhancement client and server"
         },
         {
           "file": "extra_zombie_drops-1.0.0.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/extra_zombie_drops-1.0.0.jar",
-          "sha256": "71fdf364192f416e208bf9f544435c81a86642869d8a4754c9c9ed78555955f2"
+          "sha256": "71fdf364192f416e208bf9f544435c81a86642869d8a4754c9c9ed78555955f2",
+          "name": "Extra zombie drops"
         },
         {
           "file": "extragore-1.20.1-5.2.3.1.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/extragore-1.20.1-5.2.3.1.jar",
-          "sha256": "c3d2547819d06deb51906e1abf7bf44e229f1d6e1dad274fa1c9ea1fe3950632"
+          "sha256": "c3d2547819d06deb51906e1abf7bf44e229f1d6e1dad274fa1c9ea1fe3950632",
+          "name": "Extragore"
         },
         {
           "file": "fallingtrees-forge-mc1.20-0.13.2-SNAPSHOT.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/fallingtrees-forge-mc1.20-0.13.2-SNAPSHOT.jar",
-          "sha256": "6b4853214c5cc156b187b86162df2db028c0ddcf90380fa1897068cde2622de1"
+          "sha256": "6b4853214c5cc156b187b86162df2db028c0ddcf90380fa1897068cde2622de1",
+          "name": "Fallingtrees"
         },
         {
           "file": "fancymenu_forge_3.9.6_MC_1.20.1.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/fancymenu_forge_3.9.6_MC_1.20.1.jar",
-          "sha256": "b01245df0afd1780b4272fbcbf55f061b827d23803c86c2a3a76d88314032b92"
+          "sha256": "b01245df0afd1780b4272fbcbf55f061b827d23803c86c2a3a76d88314032b92",
+          "name": "Fancymenu MC"
         },
         {
           "file": "fastpaintings-1.20-1.2.7.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/fastpaintings-1.20-1.2.7.jar",
-          "sha256": "cb7e71c87abb53d9bf66836ff3a9036dde261594e25ecbe3e140fe3153ce4358"
+          "sha256": "cb7e71c87abb53d9bf66836ff3a9036dde261594e25ecbe3e140fe3153ce4358",
+          "name": "Fastpaintings"
         },
         {
           "file": "feralzombie-0.5-BETA.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/feralzombie-0.5-BETA.jar",
-          "sha256": "f30a65664cbec3c3094520579ece61f74995f8a3a10ef1e13cd4f08a02e44e2b"
+          "sha256": "f30a65664cbec3c3094520579ece61f74995f8a3a10ef1e13cd4f08a02e44e2b",
+          "name": "Feralzombie"
         },
         {
           "file": "ferritecore-6.0.1-forge.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/ferritecore-6.0.1-forge.jar",
-          "sha256": "9c2c9396a49e796d88497758caa4637d2bcbb433c318e2dd9cebcffbaf0f6c54"
+          "sha256": "9c2c9396a49e796d88497758caa4637d2bcbb433c318e2dd9cebcffbaf0f6c54",
+          "name": "Ferritecore"
         },
         {
           "file": "firstjoinmessage-1.20.1-3.8.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/firstjoinmessage-1.20.1-3.8.jar",
-          "sha256": "cb6f91a1c866f0f944226b446ff8219a20472a6bbcf9c6e9c0ac690f337a990a"
+          "sha256": "cb6f91a1c866f0f944226b446ff8219a20472a6bbcf9c6e9c0ac690f337a990a",
+          "name": "Firstjoinmessage"
         },
         {
           "file": "flan-1.20.1-1.11.15-forge.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/flan-1.20.1-1.11.15-forge.jar",
-          "sha256": "f9912ed7f20c49163bc5c7e55d328c58642e4b674336f9f7b729b7f0cb9b48ff"
+          "sha256": "f9912ed7f20c49163bc5c7e55d328c58642e4b674336f9f7b729b7f0cb9b48ff",
+          "name": "Flan"
         },
         {
           "file": "forgivingworld-1.20.1-4.7.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/forgivingworld-1.20.1-4.7.jar",
-          "sha256": "fbf07f7e6aea7b3f1f7c7e2ef54b68c346b734f229c1e310c38deb941d647698"
+          "sha256": "fbf07f7e6aea7b3f1f7c7e2ef54b68c346b734f229c1e310c38deb941d647698",
+          "name": "Forgivingworld"
         },
         {
           "file": "framework-forge-1.20.1-0.8.0.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/framework-forge-1.20.1-0.8.0.jar",
-          "sha256": "37c267f46d8b8dfa81bae8c9fa9fa6467e456cadecae10722ee91b43437f25a0"
+          "sha256": "37c267f46d8b8dfa81bae8c9fa9fa6467e456cadecae10722ee91b43437f25a0",
+          "name": "Framework"
         },
         {
           "file": "ftb-library-forge-2001.2.12.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/ftb-library-forge-2001.2.12.jar",
-          "sha256": "f09335944fff8ca3ef37a40e0b125ffb6707759ede258c73f9ce9bac61bfbf96"
+          "sha256": "f09335944fff8ca3ef37a40e0b125ffb6707759ede258c73f9ce9bac61bfbf96",
+          "name": "Ftb library"
         },
         {
           "file": "ftb-quests-forge-2001.4.18.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/ftb-quests-forge-2001.4.18.jar",
-          "sha256": "62f0229c45d5bafd9747d129f159818e513df411840744b1beb15e0c68f3b0ca"
+          "sha256": "62f0229c45d5bafd9747d129f159818e513df411840744b1beb15e0c68f3b0ca",
+          "name": "Ftb quests"
         },
         {
           "file": "ftb-teams-forge-2001.3.2.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/ftb-teams-forge-2001.3.2.jar",
-          "sha256": "b1cb4d82ea9f137a87e12a7aaf3329619294b56f7d70337dfd557a76e10b6e07"
+          "sha256": "b1cb4d82ea9f137a87e12a7aaf3329619294b56f7d70337dfd557a76e10b6e07",
+          "name": "Ftb teams"
         },
         {
           "file": "ftb-xmod-compat-forge-2.1.3.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/ftb-xmod-compat-forge-2.1.3.jar",
-          "sha256": "16a8eb9de88d5c33d29cb076cc39dfb337b2c54348e1ef1efe9dd60cf85e5f72"
+          "sha256": "16a8eb9de88d5c33d29cb076cc39dfb337b2c54348e1ef1efe9dd60cf85e5f72",
+          "name": "Ftb xmod compat"
         },
         {
           "file": "gamemenuremovegfarb-forge-mc1.19.4-2.1.2.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/gamemenuremovegfarb-forge-mc1.19.4-2.1.2.jar",
-          "sha256": "d734991e27404a09c91fb170a62f89f47f5bbb79183ec70cfc5c99dd8b204c60"
+          "sha256": "d734991e27404a09c91fb170a62f89f47f5bbb79183ec70cfc5c99dd8b204c60",
+          "name": "Gamemenuremovegfarb"
         },
         {
           "file": "geckolib-forge-1.20.1-4.8.3.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/geckolib-forge-1.20.1-4.8.3.jar",
-          "sha256": "8b90e11871a58b63816e99c529e6c932bc88e6beb3fec97ad618e22217df3250"
+          "sha256": "8b90e11871a58b63816e99c529e6c932bc88e6beb3fec97ad618e22217df3250",
+          "name": "Geckolib"
         },
         {
           "file": "gliders-forge-1.1.7.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/gliders-forge-1.1.7.jar",
-          "sha256": "3b810f913322468d8e7192380e4495b5469d9dff534a75dad97135658ecd6d04"
+          "sha256": "3b810f913322468d8e7192380e4495b5469d9dff534a75dad97135658ecd6d04",
+          "name": "Gliders"
         },
         {
           "file": "gml-4.0.11-all.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/gml-4.0.11-all.jar",
-          "sha256": "4f1014d242c944771d798206c2d38d44d9d77148c4bb7a1f141aa405e7afd9d4"
+          "sha256": "4f1014d242c944771d798206c2d38d44d9d77148c4bb7a1f141aa405e7afd9d4",
+          "name": "Gml"
         },
         {
           "file": "handcrafted-forge-1.20.1-3.0.6.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/handcrafted-forge-1.20.1-3.0.6.jar",
-          "sha256": "1da3c7c524bfb656bb370757af55f08f1678e8e1cb934e1c4c04aa773ed64a79"
+          "sha256": "1da3c7c524bfb656bb370757af55f08f1678e8e1cb934e1c4c04aa773ed64a79",
+          "name": "Handcrafted"
         },
         {
           "file": "immersive_aircraft-1.4.0+1.20.1-forge.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/immersive_aircraft-1.4.0+1.20.1-forge.jar",
-          "sha256": "45dd68b6707b3eeae0c958d0242b29ec03cdd0d8fc88af20761661ebf3c456cd"
+          "sha256": "45dd68b6707b3eeae0c958d0242b29ec03cdd0d8fc88af20761661ebf3c456cd",
+          "name": "Immersive aircraft"
         },
         {
           "file": "immersive_weathering-1.20.1-2.0.5-forge.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/immersive_weathering-1.20.1-2.0.5-forge.jar",
-          "sha256": "b88353d6efe18635bac2d4169e704320987e9678fd683217195dcdcf2c1ca1ba"
+          "sha256": "b88353d6efe18635bac2d4169e704320987e9678fd683217195dcdcf2c1ca1ba",
+          "name": "Immersive weathering"
         },
         {
           "file": "immersive_weathering_pandas_compat-1.0.0-all.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/immersive_weathering_pandas_compat-1.0.0-all.jar",
-          "sha256": "3650e8819383b8b147bc5571c88083b1dde019dfe919022b5efc964ee6e8e6b4"
+          "sha256": "3650e8819383b8b147bc5571c88083b1dde019dfe919022b5efc964ee6e8e6b4",
+          "name": "Immersive weathering pandas compat"
         },
         {
           "file": "improved-village-placement-1.1.2.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/improved-village-placement-1.1.2.jar",
-          "sha256": "2d0a4d6e8c70ae342597b5d51e528c2c505658d741ba99852e16e930f186d638"
+          "sha256": "2d0a4d6e8c70ae342597b5d51e528c2c505658d741ba99852e16e930f186d638",
+          "name": "Improved village placement"
         },
         {
           "file": "incontrol-1.20-9.4.6.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/incontrol-1.20-9.4.6.jar",
-          "sha256": "85d64d0f81f6eb6e1e2fa2a97a0aeabcea9e371498c3853b12c3697891e57f2c"
+          "sha256": "85d64d0f81f6eb6e1e2fa2a97a0aeabcea9e371498c3853b12c3697891e57f2c",
+          "name": "Incontrol"
         },
         {
           "file": "insanelib-1.23.4.3.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/insanelib-1.23.4.3.jar",
-          "sha256": "452350f5484a72a249ca0cf7710ced00c097b106c3d2bb1c88cca719eca8d4b6"
+          "sha256": "452350f5484a72a249ca0cf7710ced00c097b106c3d2bb1c88cca719eca8d4b6",
+          "name": "Insanelib"
         },
         {
           "file": "inventorysorter-1.20.1-23.0.8.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/inventorysorter-1.20.1-23.0.8.jar",
-          "sha256": "3263afb2c416d36c8d36effb726750a7c9e370f9712a78f7b7d325a39406d7cf"
+          "sha256": "3263afb2c416d36c8d36effb726750a7c9e370f9712a78f7b7d325a39406d7cf",
+          "name": "Inventorysorter"
         },
         {
           "file": "item-filters-forge-2001.1.0-build.59.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/item-filters-forge-2001.1.0-build.59.jar",
-          "sha256": "99417b1342ba51ccb9611b17ab01fc1299971aa34e8f9d2a8b3c63df5713eb49"
+          "sha256": "99417b1342ba51ccb9611b17ab01fc1299971aa34e8f9d2a8b3c63df5713eb49",
+          "name": "Item filters build.59"
         },
         {
           "file": "item_scrapper-1.3.0.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/item_scrapper-1.3.0.jar",
-          "sha256": "4da57a97ca2c0d9fae7fb508d3019c3dde2448a5ac9e2031b8f34957bf0d96f3"
+          "sha256": "4da57a97ca2c0d9fae7fb508d3019c3dde2448a5ac9e2031b8f34957bf0d96f3",
+          "name": "Item scrapper"
         },
         {
           "file": "itemscrapperpack-ma-1.20.1forge-1.0.0.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/itemscrapperpack-ma-1.20.1forge-1.0.0.jar",
-          "sha256": "28b55be3b0b48c697855ee501b81ab22214e86fb2622ac5bf6d1fe3124d06310"
+          "sha256": "28b55be3b0b48c697855ee501b81ab22214e86fb2622ac5bf6d1fe3124d06310",
+          "name": "Itemscrapperpack ma 1.20.1forge"
         },
         {
           "file": "jamlib-forge-1.3.6+1.20.1.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/jamlib-forge-1.3.6+1.20.1.jar",
-          "sha256": "76dc35be8260113f31c6696ebd8397e70cf4a9f638225d6e4d51c05e85d0a424"
+          "sha256": "76dc35be8260113f31c6696ebd8397e70cf4a9f638225d6e4d51c05e85d0a424",
+          "name": "Jamlib"
         },
         {
           "file": "jeffs_cursed_walking_structures-3.2.4-forge-1.20.1.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/jeffs_cursed_walking_structures-3.2.4-forge-1.20.1.jar",
-          "sha256": "10489eff186351e336633863ec51ab2ad1dd0c4ce263e62ed87f75de722e6e63"
+          "sha256": "10489eff186351e336633863ec51ab2ad1dd0c4ce263e62ed87f75de722e6e63",
+          "name": "Jeffs cursed walking structures"
         },
         {
           "file": "jei-1.20.1-forge-15.20.0.112.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/jei-1.20.1-forge-15.20.0.112.jar",
-          "sha256": "2d3a86f503dbde51afa5142951525c37e227016ce8d9e7dfd10bbdd9233f0204"
+          "sha256": "2d3a86f503dbde51afa5142951525c37e227016ce8d9e7dfd10bbdd9233f0204",
+          "name": "Jei"
         },
         {
           "file": "konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
-          "sha256": "e78686b92c3761ec26eb9d3c53efdd3d6ca77981cbd3723995e1163b7103ae0b"
+          "sha256": "e78686b92c3761ec26eb9d3c53efdd3d6ca77981cbd3723995e1163b7103ae0b",
+          "name": "Konkrete MC"
         },
         {
           "file": "kotlinforforge-4.12.0-all.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/kotlinforforge-4.12.0-all.jar",
-          "sha256": "6a66c6a68ec09f8717cdbf06883394f0ee24d7cd826b7134a0f81839e8e720ae"
+          "sha256": "6a66c6a68ec09f8717cdbf06883394f0ee24d7cd826b7134a0f81839e8e720ae",
+          "name": "Kotlinforforge"
         },
         {
           "file": "kubejs-forge-2001.6.5-build.16.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/kubejs-forge-2001.6.5-build.16.jar",
-          "sha256": "3de6b7267d3aab981848ed54d3afe7edf20532fa4060631fd6fffcd99ac5f3d5"
+          "sha256": "3de6b7267d3aab981848ed54d3afe7edf20532fa4060631fd6fffcd99ac5f3d5",
+          "name": "Kubejs build.16"
         },
         {
           "file": "letmedespawn-1.20.x-forge-1.5.0.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/letmedespawn-1.20.x-forge-1.5.0.jar",
-          "sha256": "c6be3d9a62234d96d302369ac0a0ee238bdc0cf1b7f7280532d4365e9fabc09e"
+          "sha256": "c6be3d9a62234d96d302369ac0a0ee238bdc0cf1b7f7280532d4365e9fabc09e",
+          "name": "Letmedespawn"
         },
         {
           "file": "letsdo-API-forge-1.2.15-forge.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/letsdo-API-forge-1.2.15-forge.jar",
-          "sha256": "d08b99df112cfffb46e289635c79d4ac8397223320abd6469b47e202e23fa28c"
+          "sha256": "d08b99df112cfffb46e289635c79d4ac8397223320abd6469b47e202e23fa28c",
+          "name": "Letsdo"
         },
         {
           "file": "letsdo-bloomingnature-forge-1.0.12.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/letsdo-bloomingnature-forge-1.0.12.jar",
-          "sha256": "d55f72b24c4d5f3236b3754c1c9209757a4740771bc95a40406ad90022263488"
+          "sha256": "d55f72b24c4d5f3236b3754c1c9209757a4740771bc95a40406ad90022263488",
+          "name": "Letsdo bloomingnature"
         },
         {
           "file": "letsdo-herbalbrews-forge-1.0.12.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/letsdo-herbalbrews-forge-1.0.12.jar",
-          "sha256": "8cf03776a4a876810a2af9c9f18f73eb5a20f041b0791b6c8b8150b5441b83c1"
+          "sha256": "8cf03776a4a876810a2af9c9f18f73eb5a20f041b0791b6c8b8150b5441b83c1",
+          "name": "Letsdo herbalbrews"
         },
         {
           "file": "lithostitched-forge-1.20.1-1.4.11.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/lithostitched-forge-1.20.1-1.4.11.jar",
-          "sha256": "c19a5a36c0e6cb3782cf7ca5b9648fb1bce5fc41fd737bed423a1f4971bccf75"
+          "sha256": "c19a5a36c0e6cb3782cf7ca5b9648fb1bce5fc41fd737bed423a1f4971bccf75",
+          "name": "Lithostitched"
         },
         {
           "file": "lootjs-forge-1.20.1-2.13.0.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/lootjs-forge-1.20.1-2.13.0.jar",
-          "sha256": "71ce6c6694787f026ad2fa8e4d31b4ba2595e7fa319e373b963bd18c2f34334d"
+          "sha256": "71ce6c6694787f026ad2fa8e4d31b4ba2595e7fa319e373b963bd18c2f34334d",
+          "name": "Lootjs"
         },
         {
           "file": "lootr-forge-1.20-0.7.35.94.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/lootr-forge-1.20-0.7.35.94.jar",
-          "sha256": "01200ee5889e6bcc3c5fa8f32b7b49a4bd58e653699eeb655c6f2dd314e3ce51"
+          "sha256": "01200ee5889e6bcc3c5fa8f32b7b49a4bd58e653699eeb655c6f2dd314e3ce51",
+          "name": "Lootr"
         },
         {
           "file": "lostcities-1.20-7.4.11.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/lostcities-1.20-7.4.11.jar",
-          "sha256": "7a3f3c55de1b869380fdbdef4fa8865bc1daf3ae6c66fab1056ea44d6534b4fb"
+          "sha256": "7a3f3c55de1b869380fdbdef4fa8865bc1daf3ae6c66fab1056ea44d6534b4fb",
+          "name": "Lostcities"
         },
         {
           "file": "majrusz-library-forge-1.20.1-7.0.8.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/majrusz-library-forge-1.20.1-7.0.8.jar",
-          "sha256": "4d58fc2db26343d6b163dbb8f8c98e554ada6fffb634b9896c2d274629090548"
+          "sha256": "4d58fc2db26343d6b163dbb8f8c98e554ada6fffb634b9896c2d274629090548",
+          "name": "Majrusz library"
         },
         {
           "file": "marbledsarsenal-1.20.1forge-2.4.0.0.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/marbledsarsenal-1.20.1forge-2.4.0.0.jar",
-          "sha256": "e399a59a30d40651d1cab943c5f80dd79fb58d7d1ff7268ae1e314cae8a3b63b"
+          "sha256": "e399a59a30d40651d1cab943c5f80dd79fb58d7d1ff7268ae1e314cae8a3b63b",
+          "name": "Marbledsarsenal 1.20.1forge"
         },
         {
           "file": "marbledsfirstaid-1.20.1forge-1.2.0.0.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/marbledsfirstaid-1.20.1forge-1.2.0.0.jar",
-          "sha256": "1d1717bd5ba5b112c047d364ba9be681d68d719bda5cac1a035c2c3818f43533"
+          "sha256": "1d1717bd5ba5b112c047d364ba9be681d68d719bda5cac1a035c2c3818f43533",
+          "name": "Marbledsfirstaid 1.20.1forge"
         },
         {
           "file": "marbledsmelees-1.20.1-1.0.0.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/marbledsmelees-1.20.1-1.0.0.jar",
-          "sha256": "7712e4529b6380e00f3c509d4516b5c0318eb10cfb9d025ba99bfd14e996d2e8"
+          "sha256": "7712e4529b6380e00f3c509d4516b5c0318eb10cfb9d025ba99bfd14e996d2e8",
+          "name": "Marbledsmelees"
         },
         {
           "file": "mcore-1.20.1-1.0.3.0.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/mcore-1.20.1-1.0.3.0.jar",
-          "sha256": "b9a5e6fa48b9d02806f6ee34899d84d27e09c7cded035f2834de2bed83fc4267"
+          "sha256": "b9a5e6fa48b9d02806f6ee34899d84d27e09c7cded035f2834de2bed83fc4267",
+          "name": "Mcore"
         },
         {
           "file": "melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
-          "sha256": "933e2a7e79c4594f965f7f7d00b1f28a98ec2a180ad8f9f90310a266fe5cf5d8"
+          "sha256": "933e2a7e79c4594f965f7f7d00b1f28a98ec2a180ad8f9f90310a266fe5cf5d8",
+          "name": "Melody MC"
         },
         {
           "file": "mobcontrol-1.20.1-1.5.15.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/mobcontrol-1.20.1-1.5.15.jar",
-          "sha256": "e0d195b5d53533dd2e7d723757d406af10648e95f932dfdc2475279501c202df"
+          "sha256": "e0d195b5d53533dd2e7d723757d406af10648e95f932dfdc2475279501c202df",
+          "name": "Mobcontrol"
         },
         {
           "file": "modernfix-forge-5.27.51+mc1.20.1.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/modernfix-forge-5.27.51+mc1.20.1.jar",
-          "sha256": "ec73870ccd4f0f931d7d619a3e8879f32a647b4bf1d4a32fa76c390c6537d111"
+          "sha256": "ec73870ccd4f0f931d7d619a3e8879f32a647b4bf1d4a32fa76c390c6537d111",
+          "name": "Modernfix"
         },
         {
           "file": "money.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/money.jar",
-          "sha256": "2fc544ae327d274f93d0699d647dfb74a77cfa576cad101013ec06f8106f2a66"
+          "sha256": "2fc544ae327d274f93d0699d647dfb74a77cfa576cad101013ec06f8106f2a66",
+          "name": "Money"
         },
         {
           "file": "moonlight-1.20-2.16.28-forge.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/moonlight-1.20-2.16.28-forge.jar",
-          "sha256": "46ee59799b38da7b87b734e4f6f11be886a15cab51cbf78614bb50f9e43b3278"
+          "sha256": "46ee59799b38da7b87b734e4f6f11be886a15cab51cbf78614bb50f9e43b3278",
+          "name": "Moonlight"
         },
         {
           "file": "nobz-1.3.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/nobz-1.3.jar",
-          "sha256": "d25dffd2517685560358adcfd43256426ef8426cbb4f1b56049d1db76ecccbfc"
+          "sha256": "d25dffd2517685560358adcfd43256426ef8426cbb4f1b56049d1db76ecccbfc",
+          "name": "Nobz"
         },
         {
           "file": "noisium-forge-2.3.0+mc1.20-1.20.1.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/noisium-forge-2.3.0+mc1.20-1.20.1.jar",
-          "sha256": "b0b020250c81e8cce7776c3dc8f7085f269e2007570d5fbd492c4497ad60685c"
+          "sha256": "b0b020250c81e8cce7776c3dc8f7085f269e2007570d5fbd492c4497ad60685c",
+          "name": "Noisium"
         },
         {
           "file": "nopoof-1.20.1-1.0.0.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/nopoof-1.20.1-1.0.0.jar",
-          "sha256": "42a1a44ab7ce1f23c03b5e1b2e4697087788cf1c9f95d95066d0d3ad663ac580"
+          "sha256": "42a1a44ab7ce1f23c03b5e1b2e4697087788cf1c9f95d95066d0d3ad663ac580",
+          "name": "Nopoof"
         },
         {
           "file": "nostartupmessages-1.0.1.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/nostartupmessages-1.0.1.jar",
-          "sha256": "387d0fdd749db39846d5b81dffe22ea3039def187eccbb8eed36c86e958cbb5c"
+          "sha256": "387d0fdd749db39846d5b81dffe22ea3039def187eccbb8eed36c86e958cbb5c",
+          "name": "Nostartupmessages"
         },
         {
           "file": "notenoughanimations-forge-1.11.3-mc1.20.1.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/notenoughanimations-forge-1.11.3-mc1.20.1.jar",
-          "sha256": "ba479aa1f3d34bbe425e965cc38e9ba959ad03fd9a7b6a69ddcc5c3bdfc9fb14"
+          "sha256": "ba479aa1f3d34bbe425e965cc38e9ba959ad03fd9a7b6a69ddcc5c3bdfc9fb14",
+          "name": "Notenoughanimations"
         },
         {
           "file": "novillagerdm-1.20.1-5.0.0.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/novillagerdm-1.20.1-5.0.0.jar",
-          "sha256": "5e70333d6809827876f89ed36859b3bd1561a6533844318867fb842b3b07ebcd"
+          "sha256": "5e70333d6809827876f89ed36859b3bd1561a6533844318867fb842b3b07ebcd",
+          "name": "Novillagerdm"
         },
         {
           "file": "oculus-mc1.20.1-1.8.0.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/oculus-mc1.20.1-1.8.0.jar",
-          "sha256": "0945df0cba0f62b3901dd80c3268e5311b770ece78c78037a45db12ac0425fef"
+          "sha256": "0945df0cba0f62b3901dd80c3268e5311b770ece78c78037a45db12ac0425fef",
+          "name": "Oculus"
         },
         {
           "file": "open-parties-and-claims-forge-1.20.1-0.27.5.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/open-parties-and-claims-forge-1.20.1-0.27.5.jar",
-          "sha256": "5975e16a590a860c34aaf488b8e9a69eb404fe313f7456fe01e77dede567c1c1"
+          "sha256": "5975e16a590a860c34aaf488b8e9a69eb404fe313f7456fe01e77dede567c1c1",
+          "name": "Open parties and claims"
         },
         {
           "file": "packetfixer-3.3.1-1.18-1.20.4-merged.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/packetfixer-3.3.1-1.18-1.20.4-merged.jar",
-          "sha256": "4f641e4e204315a55b3f5a33e3039076ba08c95b68ac9280ea0081fb27470c13"
+          "sha256": "4f641e4e204315a55b3f5a33e3039076ba08c95b68ac9280ea0081fb27470c13",
+          "name": "Packetfixer merged"
         },
         {
           "file": "pandalib-forge-mc1.20-0.5.2-SNAPSHOT.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/pandalib-forge-mc1.20-0.5.2-SNAPSHOT.jar",
-          "sha256": "1595c586e9c3e7e9a455d23b1686cc82f8d9e11578efd86a10a7031995301390"
+          "sha256": "1595c586e9c3e7e9a455d23b1686cc82f8d9e11578efd86a10a7031995301390",
+          "name": "Pandalib"
         },
         {
           "file": "particular-1.20.1-Forge-1.2.7.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/particular-1.20.1-Forge-1.2.7.jar",
-          "sha256": "6690973d8d9c651d5b2e17aff48392a5cc8752c01d208012a80c76fd44e63cb1"
+          "sha256": "6690973d8d9c651d5b2e17aff48392a5cc8752c01d208012a80c76fd44e63cb1",
+          "name": "Particular"
         },
         {
           "file": "player-animation-lib-forge-1.0.2-rc1+1.20.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/player-animation-lib-forge-1.0.2-rc1+1.20.jar",
-          "sha256": "90d9965cb9efdbda29fdc5610be3914cf7008bf5c392ff34f7ab25f96a852691"
+          "sha256": "90d9965cb9efdbda29fdc5610be3914cf7008bf5c392ff34f7ab25f96a852691",
+          "name": "Player animation lib rc1"
         },
         {
           "file": "polymorph-forge-0.49.10+1.20.1.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/polymorph-forge-0.49.10+1.20.1.jar",
-          "sha256": "cbe63a0a1cb6ae8dbc0e29bb96d149a137cd4e714b295fa49d230994091d157f"
+          "sha256": "cbe63a0a1cb6ae8dbc0e29bb96d149a137cd4e714b295fa49d230994091d157f",
+          "name": "Polymorph"
         },
         {
           "file": "powderedup-0.4.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/powderedup-0.4.jar",
-          "sha256": "b7d471325aa7443291bdf7c74be0f55f63a696da8df732c8677a212c416dab92"
+          "sha256": "b7d471325aa7443291bdf7c74be0f55f63a696da8df732c8677a212c416dab92",
+          "name": "Powderedup"
         },
         {
           "file": "projectvibrantjourneys-1.20.1-6.2.1.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/projectvibrantjourneys-1.20.1-6.2.1.jar",
-          "sha256": "2533832cbff26241b5a66338818f82a9528441bbc67697994995f73abeadecc4"
+          "sha256": "2533832cbff26241b5a66338818f82a9528441bbc67697994995f73abeadecc4",
+          "name": "Projectvibrantjourneys"
         },
         {
           "file": "propertymodifier-1.20.1-0.1-all.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/propertymodifier-1.20.1-0.1-all.jar",
-          "sha256": "b92016bca3280fcfdd306ba370cc06823a2d69aa8f3d2805a881f0e22d9f63db"
+          "sha256": "b92016bca3280fcfdd306ba370cc06823a2d69aa8f3d2805a881f0e22d9f63db",
+          "name": "Propertymodifier"
         },
         {
           "file": "realmrpg_skeletons-1.1.0-forge-1.20.1.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/realmrpg_skeletons-1.1.0-forge-1.20.1.jar",
-          "sha256": "5206c8117f3869f6ea894c034f4a18d4def40ef8b0da106eb662ebd4e8ebbf36"
+          "sha256": "5206c8117f3869f6ea894c034f4a18d4def40ef8b0da106eb662ebd4e8ebbf36",
+          "name": "Realmrpg skeletons"
         },
         {
           "file": "refurbished_furniture-forge-1.20.1-1.0.20.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/refurbished_furniture-forge-1.20.1-1.0.20.jar",
-          "sha256": "480546202aa21fa07e6b1571f3e3263e5690e9804afb7c35984642bcf473bc6e"
+          "sha256": "480546202aa21fa07e6b1571f3e3263e5690e9804afb7c35984642bcf473bc6e",
+          "name": "Refurbished furniture"
         },
         {
           "file": "resourcefullib-forge-1.20.1-2.1.29.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/resourcefullib-forge-1.20.1-2.1.29.jar",
-          "sha256": "b13afb95231d88e1caea5a045967e0fc291b29020b0d26ad39e6f9e9a551fee8"
+          "sha256": "b13afb95231d88e1caea5a045967e0fc291b29020b0d26ad39e6f9e9a551fee8",
+          "name": "Resourcefullib"
         },
         {
           "file": "responsiveshields-2.3-mc1.18-19-20.x.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/responsiveshields-2.3-mc1.18-19-20.x.jar",
-          "sha256": "91208c39f5a775a62f983acce4c772f5afc5862ea11c1d3ae39601312c522d65"
+          "sha256": "91208c39f5a775a62f983acce4c772f5afc5862ea11c1d3ae39601312c522d65",
+          "name": "Responsiveshields"
         },
         {
           "file": "rhino-forge-2001.2.3-build.10.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/rhino-forge-2001.2.3-build.10.jar",
-          "sha256": "fed2211429301bf043864183cab9ab8e92d4cc4dbb9e488ce6c75217c54584a6"
+          "sha256": "fed2211429301bf043864183cab9ab8e92d4cc4dbb9e488ce6c75217c54584a6",
+          "name": "Rhino build.10"
         },
         {
           "file": "rightclickharvest-forge-4.6.1+1.20.1.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/rightclickharvest-forge-4.6.1+1.20.1.jar",
-          "sha256": "e7ae955174869497a7aa855cf859aba6f37abbb2a93b53e9e05935cf7709cc0a"
+          "sha256": "e7ae955174869497a7aa855cf859aba6f37abbb2a93b53e9e05935cf7709cc0a",
+          "name": "Rightclickharvest"
         },
         {
           "file": "ritchiesprojectilelib-2.1.1-mc.1.20.1-forge.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/ritchiesprojectilelib-2.1.1-mc.1.20.1-forge.jar",
-          "sha256": "5531ec454792f98993fa29d55f8810444ba3e9ef8f04331c5811b84ec8d0c3dc"
+          "sha256": "5531ec454792f98993fa29d55f8810444ba3e9ef8f04331c5811b84ec8d0c3dc",
+          "name": "Ritchiesprojectilelib mc.1.20.1"
         },
         {
           "file": "rotten_flesh_to_leather-1.0.0.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/rotten_flesh_to_leather-1.0.0.jar",
-          "sha256": "44a21f2f229a8f28541dd7d75ba5061aa5b83b6152b025bc5338ee5aea2c3db1"
+          "sha256": "44a21f2f229a8f28541dd7d75ba5061aa5b83b6152b025bc5338ee5aea2c3db1",
+          "name": "Rotten flesh to leather"
         },
         {
           "file": "serverpress-Forge-1.20.1-0.8.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/serverpress-Forge-1.20.1-0.8.jar",
-          "sha256": "4eb061164909ce2dfe92c43ebc0235483eb180b728349b5825f76a700a39e6fc"
+          "sha256": "4eb061164909ce2dfe92c43ebc0235483eb180b728349b5825f76a700a39e6fc",
+          "name": "Serverpress"
         },
         {
           "file": "simple_snowy_fix-forge-1.19-1.20.1-2.1.5.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/simple_snowy_fix-forge-1.19-1.20.1-2.1.5.jar",
-          "sha256": "0a4ae6ddefd35194939d84d31e5d9e313c873c762904c457c14ea54538ef0633"
+          "sha256": "0a4ae6ddefd35194939d84d31e5d9e313c873c762904c457c14ea54538ef0633",
+          "name": "Simple snowy fix"
         },
         {
           "file": "simpleshops-1.2.2.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/simpleshops-1.2.2.jar",
-          "sha256": "2afb0026e34601f1da9d0a11ddea41a63de69df110d9a3d0ada0523a33f9eeb2"
+          "sha256": "2afb0026e34601f1da9d0a11ddea41a63de69df110d9a3d0ada0523a33f9eeb2",
+          "name": "Simpleshops"
         },
         {
           "file": "simply_traps-1.7-forge-1.20.1.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/simply_traps-1.7-forge-1.20.1.jar",
-          "sha256": "932cb2547d2a918a9441c414913353912b77f7c2785f804efe8daabfc874d4a4"
+          "sha256": "932cb2547d2a918a9441c414913353912b77f7c2785f804efe8daabfc874d4a4",
+          "name": "Simply traps"
         },
         {
           "file": "simplylight-1.20.1-1.4.6-build.50.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/simplylight-1.20.1-1.4.6-build.50.jar",
-          "sha256": "893c67fb4bbafee6e3208ba34bf60e2d6f17f4f9efdb6d1f12baa4052d8ddd10"
+          "sha256": "893c67fb4bbafee6e3208ba34bf60e2d6f17f4f9efdb6d1f12baa4052d8ddd10",
+          "name": "Simplylight build.50"
         },
         {
           "file": "sliceanddice-forge-3.6.0.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/sliceanddice-forge-3.6.0.jar",
-          "sha256": "bafdcbeda044603b59eb16059829a6698c1a58d1ce865b8658e598f2718d315a"
+          "sha256": "bafdcbeda044603b59eb16059829a6698c1a58d1ce865b8658e598f2718d315a",
+          "name": "Sliceanddice"
         },
         {
           "file": "smoothbootreloaded-mc1.20.1-0.0.4.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/smoothbootreloaded-mc1.20.1-0.0.4.jar",
-          "sha256": "5a0d2682493ffa7b140a7b81f0d1e70c7536c97969397cf9e718e31391b5b9d5"
+          "sha256": "5a0d2682493ffa7b140a7b81f0d1e70c7536c97969397cf9e718e31391b5b9d5",
+          "name": "Smoothbootreloaded"
         },
         {
           "file": "sophisticatedbackpacks-1.20.1-3.23.17.1246.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/sophisticatedbackpacks-1.20.1-3.23.17.1246.jar",
-          "sha256": "a045babd7f50f5d10b3ebfd7240d7b694356876ed805d5c66dddc5518a177a80"
+          "sha256": "a045babd7f50f5d10b3ebfd7240d7b694356876ed805d5c66dddc5518a177a80",
+          "name": "Sophisticatedbackpacks"
         },
         {
           "file": "sophisticatedcore-1.20.1-1.2.60.987.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/sophisticatedcore-1.20.1-1.2.60.987.jar",
-          "sha256": "9c4737f9f0f4a239af4a6a379c2b7669f42d1c6418670cd3978b1af31a903fbc"
+          "sha256": "9c4737f9f0f4a239af4a6a379c2b7669f42d1c6418670cd3978b1af31a903fbc",
+          "name": "Sophisticatedcore"
         },
         {
           "file": "sound-physics-remastered-forge-1.20.1-1.4.10.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/sound-physics-remastered-forge-1.20.1-1.4.10.jar",
-          "sha256": "57ce3c7d5abe724d9fb82f3d068b7717a56b94b7d3ea98f90a2f9ca61c8f57b1"
+          "sha256": "57ce3c7d5abe724d9fb82f3d068b7717a56b94b7d3ea98f90a2f9ca61c8f57b1",
+          "name": "Sound physics remastered"
         },
         {
           "file": "starterkit-1.20.1-7.4.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/starterkit-1.20.1-7.4.jar",
-          "sha256": "b44031f90b63dae5f050e05ed0f93cc7b87d7f8ed7e7199c2840a94807725c07"
+          "sha256": "b44031f90b63dae5f050e05ed0f93cc7b87d7f8ed7e7199c2840a94807725c07",
+          "name": "Starterkit"
         },
         {
           "file": "storage_shelves-1.1.2-forge-1.20.1.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/storage_shelves-1.1.2-forge-1.20.1.jar",
-          "sha256": "3bebb3a49b48489908707056c31d2bbc577e74f3c06f236834a55813b2443bec"
+          "sha256": "3bebb3a49b48489908707056c31d2bbc577e74f3c06f236834a55813b2443bec",
+          "name": "Storage shelves"
         },
         {
           "file": "structure_gel-1.20.1-2.16.2.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/structure_gel-1.20.1-2.16.2.jar",
-          "sha256": "1584a5aed31c0f63e53c29d53cf4e069cdabf358e785240cc500702dc5918e3e"
+          "sha256": "1584a5aed31c0f63e53c29d53cf4e069cdabf358e785240cc500702dc5918e3e",
+          "name": "Structure gel"
         },
         {
           "file": "structurecontrol-1.20.1-1.8.5.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/structurecontrol-1.20.1-1.8.5.jar",
-          "sha256": "b8b733e43e07390dc845f0f2914f924225a14021402e2e41e734f7d083a91ee5"
+          "sha256": "b8b733e43e07390dc845f0f2914f924225a14021402e2e41e734f7d083a91ee5",
+          "name": "Structurecontrol"
         },
         {
           "file": "tacz-1.20.1-1.1.6-hotfix.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/tacz-1.20.1-1.1.6-hotfix.jar",
-          "sha256": "f9b4bb27cecff72750e6ef6e72a1ae579006f7dd1d5ac213c9b228fb4c8747fb"
+          "sha256": "f9b4bb27cecff72750e6ef6e72a1ae579006f7dd1d5ac213c9b228fb4c8747fb",
+          "name": "Tacz"
         },
         {
           "file": "taczaddon-1.20.1-1.1.6.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/taczaddon-1.20.1-1.1.6.jar",
-          "sha256": "0a797a3b91f8ccd5c784c2abee575eb39c8bc7906677a53bc384d27efc13459b"
+          "sha256": "0a797a3b91f8ccd5c784c2abee575eb39c8bc7906677a53bc384d27efc13459b",
+          "name": "Taczaddon"
         },
         {
           "file": "temporalapi-1.6.7.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/temporalapi-1.6.7.jar",
-          "sha256": "4d75401d454b77a2383bf8a7e8373af873d9ef6751e0f9f44f46451ab08dceb9"
+          "sha256": "4d75401d454b77a2383bf8a7e8373af873d9ef6751e0f9f44f46451ab08dceb9",
+          "name": "Temporalapi"
         },
         {
           "file": "tenshilib-1.20.1-1.7.6-forge.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/tenshilib-1.20.1-1.7.6-forge.jar",
-          "sha256": "a2dbd9d78382d16ef67d4100b1cb390d43b4b3c85ea9770e53cefa7ddf9947d8"
+          "sha256": "a2dbd9d78382d16ef67d4100b1cb390d43b4b3c85ea9770e53cefa7ddf9947d8",
+          "name": "Tenshilib"
         },
         {
           "file": "the_deep_void-1.28-forge-1.20.1.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/the_deep_void-1.28-forge-1.20.1.jar",
-          "sha256": "05b5c6cd8b5dd2f78528e3b8d6a183afe51476e6897b493c55c2a6f0974e7d69"
+          "sha256": "05b5c6cd8b5dd2f78528e3b8d6a183afe51476e6897b493c55c2a6f0974e7d69",
+          "name": "The deep void"
         },
         {
           "file": "the_deeper_void-2.0.5-forge-1.20.1.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/the_deeper_void-2.0.5-forge-1.20.1.jar",
-          "sha256": "d20a72131f49c91d03ab709ac7f08451d95ccf84d637389ed0a6629b0ef68f08"
+          "sha256": "d20a72131f49c91d03ab709ac7f08451d95ccf84d637389ed0a6629b0ef68f08",
+          "name": "The deeper void"
         },
         {
           "file": "tidal-towns-1.3.4.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/tidal-towns-1.3.4.jar",
-          "sha256": "cb4f6b0c415b929121f50071941a14f4772665f4f4e37f9f8f17778d328ebab1"
+          "sha256": "cb4f6b0c415b929121f50071941a14f4772665f4f4e37f9f8f17778d328ebab1",
+          "name": "Tidal towns"
         },
         {
           "file": "tp_shooting-1.20.1-5.1.1+tacz1.1.6-all.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/tp_shooting-1.20.1-5.1.1+tacz1.1.6-all.jar",
-          "sha256": "04e8a9bae99e54a972e91b8a1e5f3366e4020ec7fb762d9c8aafbf23ed29b8b1"
+          "sha256": "04e8a9bae99e54a972e91b8a1e5f3366e4020ec7fb762d9c8aafbf23ed29b8b1",
+          "name": "Tp shooting tacz1.1.6"
         },
         {
           "file": "trashslot-forge-1.20.1-15.1.4.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/trashslot-forge-1.20.1-15.1.4.jar",
-          "sha256": "e402a1d02b0362cabd07fc03771ba1e29714b5518b14db6ecd11e1e0c6303793"
+          "sha256": "e402a1d02b0362cabd07fc03771ba1e29714b5518b14db6ecd11e1e0c6303793",
+          "name": "Trashslot"
         },
         {
           "file": "txnilib-forge-1.0.24-1.20.1.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/txnilib-forge-1.0.24-1.20.1.jar",
-          "sha256": "71ca69345ef763903213e0b0db3c9c07d2a090ad311d1de66c31798a813a9d0e"
+          "sha256": "71ca69345ef763903213e0b0db3c9c07d2a090ad311d1de66c31798a813a9d0e",
+          "name": "Txnilib"
         },
         {
           "file": "u_team_core-forge-1.20.1-5.1.4.382.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/u_team_core-forge-1.20.1-5.1.4.382.jar",
-          "sha256": "ff502986f27f47409b3bd1c02cbbeeacf9d035069c47b2560fc81bafca8a2c35"
+          "sha256": "ff502986f27f47409b3bd1c02cbbeeacf9d035069c47b2560fc81bafca8a2c35",
+          "name": "U team core"
         },
         {
           "file": "voicechat-forge-1.20.1-2.6.12.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/voicechat-forge-1.20.1-2.6.12.jar",
-          "sha256": "6bbde6fd3c5db173fd8a741923de1a567c989ac027d7c900db5ef7393ccbf0d3"
+          "sha256": "6bbde6fd3c5db173fd8a741923de1a567c989ac027d7c900db5ef7393ccbf0d3",
+          "name": "Voicechat"
         },
         {
           "file": "walkietalkie-forge-1.20.1-1.3.0.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/walkietalkie-forge-1.20.1-1.3.0.jar",
-          "sha256": "4fdba55afc3b06eb7f646527437d1233a8f556ce3ad5712d8781f37525c7189b"
+          "sha256": "4fdba55afc3b06eb7f646527437d1233a8f556ce3ad5712d8781f37525c7189b",
+          "name": "Walkietalkie"
         },
         {
           "file": "watut-forge-1.20.1-1.2.3.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/watut-forge-1.20.1-1.2.3.jar",
-          "sha256": "19a7291187e1074dac0ade56f95cdb84936e8563c55afdc0b86c90ea7cd80a9e"
+          "sha256": "19a7291187e1074dac0ade56f95cdb84936e8563c55afdc0b86c90ea7cd80a9e",
+          "name": "Watut"
         },
         {
           "file": "wits-1.1.0+1.20.1-forge.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/wits-1.1.0+1.20.1-forge.jar",
-          "sha256": "0ef836cf94d93125ade799509069b9c5290779dddeef57799010341768b39e28"
+          "sha256": "0ef836cf94d93125ade799509069b9c5290779dddeef57799010341768b39e28",
+          "name": "Wits"
         },
         {
           "file": "xrayreporter-1.1.0.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/xrayreporter-1.1.0.jar",
-          "sha256": "dfdaae905b00e97a451e1bc162a02bca0a6829ef02c447fc828e21367d51046e"
+          "sha256": "dfdaae905b00e97a451e1bc162a02bca0a6829ef02c447fc828e21367d51046e",
+          "name": "Xrayreporter"
         },
         {
           "file": "zombies_plus-2.1.2-1.20-.4excl.3-forge-fabric.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/zombies_plus-2.1.2-1.20-.4excl.3-forge-fabric.jar",
-          "sha256": "1aa6b95b2036f754f2910f5026eb16df8a6fd16a1b24d489c1592bb1277dcf0c"
+          "sha256": "1aa6b95b2036f754f2910f5026eb16df8a6fd16a1b24d489c1592bb1277dcf0c",
+          "name": "Zombies plus .4excl.3"
         }
       ],
       "files": [
@@ -1212,5 +1443,20 @@
         }
       ]
     }
-  ]
+  ],
+  "launcher": {
+    "latestVersion": "1.3.0",
+    "changelog": [
+      {
+        "version": "1.3.0",
+        "date": "2026-08-11",
+        "changes": [
+          "Nuevo mundo: Apocalipsis Z, con más de 200 mods sobre Forge 1.20.1.",
+          "Soporte para Forge (antes el launcher solo sabía abrir Fabric).",
+          "Todo se mudó a GitHub: el launcher y los mods se actualizan solos.",
+          "Ya no hace falta reinstalar nada nunca más."
+        ]
+      }
+    ]
+  }
 }
