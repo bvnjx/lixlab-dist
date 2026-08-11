@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="cielo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a2118"/>
+      <stop offset="45%" stop-color="#2b3524"/>
+      <stop offset="100%" stop-color="#4a4a2c"/>
+    </linearGradient>
+    <linearGradient id="niebla" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7d8c5a" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#8fa05f" stop-opacity=".28"/>
+    </linearGradient>
+    <radialGradient id="luna" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#c9e86b" stop-opacity=".95"/>
+      <stop offset="60%" stop-color="#8fbc3f" stop-opacity=".35"/>
+      <stop offset="100%" stop-color="#8fbc3f" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#cielo)"/>
+
+  <!-- luna enferma -->
+  <circle cx="1230" cy="200" r="150" fill="url(#luna)"/>
+  <circle cx="1230" cy="200" r="54" fill="#d6ef82" opacity=".9"/>
+  <circle cx="1205" cy="185" r="11" fill="#b8d162" opacity=".55"/>
+  <circle cx="1252" cy="215" r="8" fill="#b8d162" opacity=".45"/>
+
+  <!-- horizonte lejano -->
+  <g opacity=".35" fill="#0e120c">
+    <rect x="60" y="470" width="70" height="240"/><rect x="150" y="520" width="52" height="190"/>
+    <rect x="240" y="440" width="86" height="270"/><rect x="350" y="505" width="60" height="205"/>
+    <rect x="1180" y="455" width="78" height="255"/><rect x="1290" y="510" width="56" height="200"/>
+    <rect x="1380" y="430" width="92" height="280"/>
+  </g>
+
+  <!-- ciudad en ruinas -->
+  <g fill="#141a10">
+    <path d="M120 700 L120 380 L250 380 L250 330 L300 330 L300 700 Z"/>
+    <path d="M330 700 L330 450 L420 450 L430 410 L470 450 L470 700 Z"/>
+    <path d="M500 700 L500 300 L560 300 L560 270 L620 285 L620 700 Z"/>
+    <path d="M660 700 L660 420 L700 400 L760 420 L760 700 Z"/>
+    <path d="M800 700 L800 350 L880 350 L880 320 L930 340 L930 700 Z"/>
+    <path d="M970 700 L970 460 L1060 460 L1060 700 Z"/>
+    <path d="M1100 700 L1100 390 L1150 370 L1210 400 L1210 700 Z"/>
+    <path d="M1250 700 L1250 480 L1340 460 L1340 700 Z"/>
+    <path d="M1380 700 L1380 420 L1470 420 L1470 700 Z"/>
+  </g>
+
+  <!-- ventanas encendidas, pocas y dispersas -->
+  <g fill="#c9e86b" opacity=".5">
+    <rect x="145" y="420" width="12" height="16"/><rect x="175" y="470" width="12" height="16"/>
+    <rect x="215" y="530" width="12" height="16"/><rect x="520" y="340" width="12" height="16"/>
+    <rect x="575" y="400" width="12" height="16"/><rect x="820" y="390" width="12" height="16"/>
+    <rect x="890" y="440" width="12" height="16"/><rect x="1120" y="430" width="12" height="16"/>
+    <rect x="1270" y="520" width="12" height="16"/><rect x="1410" y="470" width="12" height="16"/>
+  </g>
+  <g fill="#ff6b3d" opacity=".35">
+    <rect x="360" y="500" width="12" height="16"/><rect x="690" y="470" width="12" height="16"/>
+    <rect x="1010" y="510" width="12" height="16"/>
+  </g>
+
+  <!-- humo -->
+  <g opacity=".16" fill="#9fb06f">
+    <ellipse cx="540" cy="250" rx="120" ry="42"/>
+    <ellipse cx="880" cy="290" rx="150" ry="36"/>
+    <ellipse cx="1150" cy="330" rx="110" ry="30"/>
+  </g>
+
+  <!-- niebla baja -->
+  <rect x="0" y="560" width="1600" height="340" fill="url(#niebla)"/>
+
+  <!-- suelo -->
+  <rect x="0" y="700" width="1600" height="200" fill="#0b0f08"/>
+  <g opacity=".5" fill="#1a2412">
+    <rect x="0" y="700" width="1600" height="8"/>
+    <rect x="120" y="730" width="180" height="6"/><rect x="420" y="760" width="240" height="6"/>
+    <rect x="900" y="740" width="200" height="6"/><rect x="1250" y="775" width="260" height="6"/>
+  </g>
+
+  <!-- siluetas caminando -->
+  <g fill="#080b06" opacity=".85">
+    <g transform="translate(430,700)"><rect x="-5" y="-46" width="11" height="30"/><rect x="-8" y="-58" width="17" height="14"/><rect x="-11" y="-40" width="7" height="18"/><rect x="6" y="-40" width="7" height="20"/></g>
+    <g transform="translate(700,700)"><rect x="-6" y="-52" width="12" height="34"/><rect x="-9" y="-66" width="19" height="15"/><rect x="-13" y="-44" width="8" height="22"/><rect x="7" y="-46" width="8" height="24"/></g>
+    <g transform="translate(1040,700)"><rect x="-5" y="-44" width="11" height="28"/><rect x="-8" y="-56" width="17" height="13"/><rect x="-12" y="-38" width="7" height="19"/><rect x="6" y="-38" width="7" height="17"/></g>
+  </g>
+
+  <!-- viñeta -->
+  <rect width="1600" height="900" fill="none"/>
+  <radialGradient id="vin" cx="50%" cy="45%" r="75%">
+    <stop offset="55%" stop-color="#000" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#000" stop-opacity=".65"/>
+  </radialGradient>
+  <rect width="1600" height="900" fill="url(#vin)"/>
+</svg>

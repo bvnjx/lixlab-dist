@@ -1,15 +1,131 @@
 {
   "formatVersion": 1,
+  "updatedAt": "2026-08-11",
   "minecraft": {
     "version": "1.20.1"
   },
   "java": {
-    "min": 17
+    "min": 25,
+    "jvmArgs": [
+      "-XX:+UseG1GC",
+      "-XX:+ParallelRefProcEnabled",
+      "-XX:MaxGCPauseMillis=200",
+      "-XX:+UnlockExperimentalVMOptions",
+      "-XX:+DisableExplicitGC",
+      "-XX:G1NewSizePercent=30",
+      "-XX:G1MaxNewSizePercent=40",
+      "-XX:G1HeapRegionSize=8M",
+      "-XX:G1ReservePercent=20"
+    ]
   },
   "server": {
     "host": "atoms-ballots.tun.ply.gg",
     "port": 37409,
     "name": "LixLab · Apocalipsis Z"
+  },
+  "news": [
+    {
+      "title": "¡Nace el LixLab Client!",
+      "body": "Beta 1.1 — entra con un clic, con voz por proximidad y optimización incluidas. Editamos los mods en el z440 y te llegan solos.",
+      "date": "2026-07-09"
+    },
+    {
+      "title": "Voz por proximidad activada",
+      "body": "Simple Voice Chat 2.6.20 en toda la red (lobby, survival y parkour). El perfil Play Mods trae el mod de cliente listo.",
+      "date": "2026-07-08"
+    }
+  ],
+  "network": [
+    {
+      "id": "vanilla",
+      "name": "Survival",
+      "description": "Supervivencia principal de la red",
+      "tag": "mundo"
+    },
+    {
+      "id": "laboratorio",
+      "name": "Laboratorio",
+      "description": "El server experimental — Mod-a-Day",
+      "tag": "experimental"
+    }
+  ],
+  "branding": {},
+  "launcher": {
+    "latestVersion": "1.3.0",
+    "changelog": [
+      {
+        "version": "1.3.0",
+        "date": "2026-08-11",
+        "changes": [
+          "Nuevo mundo: Apocalipsis Z, con más de 200 mods sobre Forge 1.20.1.",
+          "Soporte para Forge (antes el launcher solo sabía abrir Fabric).",
+          "Todo se mudó a GitHub: el launcher y los mods se actualizan solos.",
+          "Ya no hace falta reinstalar nada nunca más."
+        ]
+      },
+      {
+        "version": "1.2.0-beta.1",
+        "date": "2026-07-11",
+        "changes": [
+          "Descargas con porcentaje real, reintentos automáticos y verificación por hash de todo (incluido Java)",
+          "Botón Cancelar durante la preparación y aviso si falta espacio en disco",
+          "Mods opcionales: préndelos o apágalos en Instalaciones",
+          "Tarjeta de error con Reintentar, Reparar instalación y Copiar diagnóstico",
+          "Updates más listos: re-chequeo cada 4 horas y soporte de updates obligatorios",
+          "Tu token de Microsoft ahora queda cifrado con el sistema (DPAPI)",
+          "Logs de los últimos 5 lanzamientos y botón para abrir la carpeta de logs"
+        ]
+      },
+      {
+        "version": "1.1.0-beta.6",
+        "date": "2026-07-10",
+        "changes": [
+          "Terminos y condiciones: se aceptan al instalar y quedan en el menu (...) del launcher",
+          "Licencia propietaria: el codigo, la marca y el diseno de LixLab quedan protegidos (todos los derechos reservados)"
+        ]
+      },
+      {
+        "version": "1.1.0-beta.5",
+        "date": "2026-07-10",
+        "changes": [
+          "Configuracion de mods administrada: los configs del manifiesto llegan a todos (modo siempre o solo-inicial)",
+          "Resource packs que se activan solos (sin tocar tus controles ni ajustes)",
+          "El wallpaper y titulo del launcher ahora se cambian desde el server",
+          "Mas robustez: escrituras atomicas, tolerancia sin internet, validaciones extra"
+        ]
+      },
+      {
+        "version": "1.1.0-beta.4",
+        "date": "2026-07-10",
+        "changes": [
+          "Verificación del auto-update en producción — si lees esto desde el launcher, ¡funcionó!"
+        ]
+      },
+      {
+        "version": "1.1.0-beta.3",
+        "date": "2026-07-10",
+        "changes": [
+          "El launcher se actualiza solo: al abrir revisa, muestra la barrita y se reinicia actualizado",
+          "Si estás jugando, la actualización espera y se instala al cerrar el juego",
+          "Este registro de cambios, visible en Notas del parche"
+        ]
+      },
+      {
+        "version": "1.1.0-beta.2",
+        "date": "2026-07-10",
+        "changes": [
+          "Fix: el juego no lanzaba — Minecraft 26.1.2 necesita Java 25 y ahora se detecta y descarga solo",
+          "Log de diagnostico por lanzamiento (launcher.log)"
+        ]
+      },
+      {
+        "version": "1.1.0-beta.1",
+        "date": "2026-07-09",
+        "changes": [
+          "Primera beta: login Microsoft y sin cuenta, perfiles Play Mods / Play Vanilla, mods auto-sincronizados, RAM automatica"
+        ]
+      }
+    ]
   },
   "profiles": [
     {
@@ -1442,22 +1558,571 @@
           "sha256": "7ecee4567bd999ce6d45897b0b196a9342ff325f550031a15fffaaf81342dc1b",
           "overwrite": "once"
         }
-      ]
-    }
-  ],
-  "launcher": {
-    "latestVersion": "1.3.0",
-    "changelog": [
-      {
-        "version": "1.3.0",
-        "date": "2026-08-11",
-        "changes": [
-          "Nuevo mundo: Apocalipsis Z, con más de 200 mods sobre Forge 1.20.1.",
-          "Soporte para Forge (antes el launcher solo sabía abrir Fabric).",
-          "Todo se mudó a GitHub: el launcher y los mods se actualizan solos.",
-          "Ya no hace falta reinstalar nada nunca más."
+      ],
+      "theme": {
+        "accent": "#8fbc3f"
+      },
+      "branding": {
+        "wallpaperUrl": "https://bvnjx.github.io/lixlab-dist/wallpapers/apocalipsis.svg",
+        "heroTitle": "APOCA<span class='accent'>·</span>LIPSIS",
+        "heroSub": "Sobrevive a la horda"
+      }
+    },
+    {
+      "id": "vanilla",
+      "name": "🌄 Vanilla",
+      "description": "Supervivencia optimizada: shaders, mapa y mejoras de rendimiento.",
+      "minecraft": {
+        "version": "26.1.2"
+      },
+      "loader": {
+        "type": "fabric",
+        "version": "0.19.3"
+      },
+      "theme": {
+        "accent": "#4e9be0"
+      },
+      "branding": {
+        "wallpaperUrl": "https://bvnjx.github.io/lixlab-dist/wallpapers/vanilla.svg",
+        "heroTitle": "LIX<span class='accent'>·</span>LAB",
+        "heroSub": "Survival optimizado"
+      },
+      "mods": [
+        {
+          "id": "fabric-api",
+          "file": "fabric-api-0.154.2+26.1.2.jar",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/fabric-api-0.154.2+26.1.2.jar",
+          "sha256": "89b232cdf0c73a6e0cc8338a7520d2ac197b9cb65adca0554860b68873ea03e1",
+          "name": "Fabric API (cliente)"
+        },
+        {
+          "id": "simple-voice-chat",
+          "file": "voicechat-fabric-2.6.20+26.1.2.jar",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/voicechat-fabric-2.6.20+26.1.2.jar",
+          "sha256": "925813f66ecd7d5be0761b4341e55d6ad8f583434431d144b21be0396ba4f29e",
+          "name": "Simple Voice Chat (cliente)"
+        },
+        {
+          "id": "sodium",
+          "file": "sodium-fabric-0.9.1+mc26.1.2.jar",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/sodium-fabric-0.9.1+mc26.1.2.jar",
+          "sha256": "56d2eb7e8fb7f129286ab9cc89f460fe5a4cea340081ef3c50ac65bce9501b1d",
+          "name": "Sodium (cliente)"
+        },
+        {
+          "id": "lithium",
+          "file": "lithium-fabric-0.24.6+mc26.1.2.jar",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/lithium-fabric-0.24.6+mc26.1.2.jar",
+          "sha256": "509e7f770c7d48bd37e9592917329db2768e4695c72a43e22c19ef64d0f9839f",
+          "name": "Lithium (cliente)"
+        },
+        {
+          "id": "immediatelyfast",
+          "name": "ImmediatelyFast (cliente)",
+          "file": "ImmediatelyFast-Fabric-1.15.3+26.1.jar",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/ImmediatelyFast-Fabric-1.15.3+26.1.jar",
+          "sha256": "5329c19ea79fbeacce6c355eeb884dcdb1c5baed632c2f8e9e92d6a4ae233cba"
+        },
+        {
+          "id": "ferrite-core",
+          "name": "FerriteCore (cliente)",
+          "file": "ferritecore-9.0.0-fabric.jar",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/ferritecore-9.0.0-fabric.jar",
+          "sha256": "213966c72ed967acc7392beb28a866fba301ff56b9976c2e7801c2db7de6bf22"
+        },
+        {
+          "id": "entityculling",
+          "name": "Entity Culling (cliente)",
+          "file": "entityculling-fabric-1.10.5-mc26.1.jar",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/entityculling-fabric-1.10.5-mc26.1.jar",
+          "sha256": "9b4443f072ff54288d51466b8dc3f327490848ebb5b75ee8755890949aa1f4a7"
+        },
+        {
+          "id": "moreculling",
+          "name": "More Culling (cliente)",
+          "file": "moreculling-fabric-26.1.2-1.7.2.jar",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/moreculling-fabric-26.1.2-1.7.2.jar",
+          "sha256": "b3d76f1deb9adc4012721ed56f9869d49da7b0c0e57b42a85029fe291ac200ca"
+        },
+        {
+          "id": "dynamic-fps",
+          "name": "Dynamic FPS (cliente)",
+          "file": "dynamic-fps-3.11.7+minecraft-26.1.0-fabric.jar",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/dynamic-fps-3.11.7+minecraft-26.1.0-fabric.jar",
+          "sha256": "52eb05524215427a8bdf53212b8fc2361b6a365607a36e94773fea55ddaf862a"
+        },
+        {
+          "id": "sodium-extra",
+          "name": "Sodium Extra (cliente)",
+          "file": "sodium-extra-fabric-0.9.3+mc26.1.2.jar",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/sodium-extra-fabric-0.9.3+mc26.1.2.jar",
+          "sha256": "08c25f25f359eeba73ed73a44be09d4b1c425ef96f8bc4eb6d7221942f90f713"
+        },
+        {
+          "id": "reeses-sodium-options",
+          "name": "Reese's Sodium Options (cliente)",
+          "file": "reeses-sodium-options-fabric-2.2.3+mc26.1.2.jar",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/reeses-sodium-options-fabric-2.2.3+mc26.1.2.jar",
+          "sha256": "32c35e14da3de36a743bb378e25314944f83c8be13a473bfb6cec521b9cb573e"
+        },
+        {
+          "id": "sound-physics-remastered",
+          "name": "Sound Physics Remastered (cliente)",
+          "file": "sound-physics-remastered-fabric-1.5.1+26.1.2.jar",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/sound-physics-remastered-fabric-1.5.1+26.1.2.jar",
+          "sha256": "7392f46fcf5d0921805dd4c91c9d99482d59a4ff92870c52c6da2e76798c88cb"
+        },
+        {
+          "id": "presence-footsteps",
+          "name": "Presence Footsteps (cliente)",
+          "file": "PresenceFootsteps-1.13.3+26.1.jar",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/PresenceFootsteps-1.13.3+26.1.jar",
+          "sha256": "6497282f734e876207fc5824421bafe404b32aab1611435fcd046b9ba1d2fdb8"
+        },
+        {
+          "id": "visuality",
+          "name": "Visuality (cliente)",
+          "file": "visuality-0.7.13+26.1.jar",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/visuality-0.7.13+26.1.jar",
+          "sha256": "14d44503562adc0228b0dcbbe2532b1af6d55afe9930e9565c574b3347bc70b7"
+        },
+        {
+          "id": "appleskin",
+          "name": "AppleSkin (cliente)",
+          "file": "appleskin-fabric-mc26.1.2-3.0.10.jar",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/appleskin-fabric-mc26.1.2-3.0.10.jar",
+          "sha256": "6a03ad4fcf0a2c831ebabd56fc1b5aca2463e35f289a927adfdbaaf0e944d41c"
+        },
+        {
+          "id": "jade",
+          "name": "Jade 🔍 (cliente)",
+          "file": "Jade-mc26.1-Fabric-26.1.8.jar",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/Jade-mc26.1-Fabric-26.1.8.jar",
+          "sha256": "a65c132a809cc16c606efc6e6a8bd8d14fc34a4a75e2f920256487880d95a0a9"
+        },
+        {
+          "id": "mouse-tweaks",
+          "name": "Mouse Tweaks (cliente)",
+          "file": "MouseTweaks-fabric-mc26.1-2.31.jar",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/MouseTweaks-fabric-mc26.1-2.31.jar",
+          "sha256": "56cabaa265034772de4e52d9a26d933a01bbab0f0a9de2ee47916a2ab9f2b660"
+        },
+        {
+          "id": "inventory-profiles-next",
+          "name": "Inventory Profiles Next (cliente)",
+          "file": "InventoryProfilesNext-fabric-26.1.2-2.3.5.jar",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/InventoryProfilesNext-fabric-26.1.2-2.3.5.jar",
+          "sha256": "69f1e880af262de4529a599f7096bf693eecb63704d63c671a4097743a346996"
+        },
+        {
+          "id": "shulkerboxtooltip",
+          "name": "Shulker Box Tooltip (cliente)",
+          "file": "shulkerboxtooltip-fabric-5.3.0+26.1.1.jar",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/shulkerboxtooltip-fabric-5.3.0+26.1.1.jar",
+          "sha256": "fc880baa50e3163338fd47f5693a0c53a82ad5d0451389dcaeaad4f80179b652"
+        },
+        {
+          "id": "zoomify",
+          "name": "Zoomify (Zoom) (cliente)",
+          "file": "zoomify-2.16.1+26.1.jar",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/zoomify-2.16.1+26.1.jar",
+          "sha256": "944b6bbf0667edb273eee84d58f828445b07d68d4ee7155d0639009496c36f7a"
+        },
+        {
+          "id": "chat-heads",
+          "name": "Chat Heads (cliente)",
+          "file": "chat_heads-1.2.4-fabric-26.1.jar",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/chat_heads-1.2.4-fabric-26.1.jar",
+          "sha256": "020b3b03c88e306d0ae8a883ea24706fdbbaf7fcabfaffa6156b6c04e07632df"
+        },
+        {
+          "id": "modmenu",
+          "name": "Mod Menu (cliente)",
+          "file": "modmenu-18.0.0.jar",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/modmenu-18.0.0.jar",
+          "sha256": "ea15f4eb0812f23ebe20cc6b0144cdd5455da0a0a0b1f21b5b733970b20a4d7e"
+        },
+        {
+          "id": "xaeros-minimap",
+          "name": "Xaero's Minimap (cliente)",
+          "file": "xaerominimap-fabric-26.1.2-26.2.0.jar",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/xaerominimap-fabric-26.1.2-26.2.0.jar",
+          "sha256": "1052dc5c33cb68c44d9b7b99bf098e003ea7aeeec6d256b96b9fe14062aed245"
+        },
+        {
+          "id": "xaeros-world-map",
+          "name": "Xaero's World Map (cliente)",
+          "file": "xaeroworldmap-fabric-26.1.2-1.42.0.jar",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/xaeroworldmap-fabric-26.1.2-1.42.0.jar",
+          "sha256": "85cf73c9a3fe4a0721cffb3f4ccec6dd76796d7ce0dd98843eec8e84ce062048"
+        },
+        {
+          "id": "not-enough-animations",
+          "name": "Not Enough Animations (cliente)",
+          "file": "notenoughanimations-fabric-1.12.4-mc26.1.jar",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/notenoughanimations-fabric-1.12.4-mc26.1.jar",
+          "sha256": "1e07a14985f90b2b3e0bd4602cb8d0e962ad67d779efeaa93b9a5489c3b086a8"
+        },
+        {
+          "id": "entitytexturefeatures",
+          "name": "[ETF] Entity Texture Features (cliente)",
+          "file": "entity_texture_features_26.1-fabric-7.1.jar",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/entity_texture_features_26.1-fabric-7.1.jar",
+          "sha256": "7e9cf735b26d2d5ea8d1cc247dd60351be8bd401b30556b84054df85d334f9c4"
+        },
+        {
+          "id": "cloth-config",
+          "name": "Cloth Config API (cliente)",
+          "file": "cloth-config-26.1.154.jar",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/cloth-config-26.1.154.jar",
+          "sha256": "fb7a5d869ce10eaac2c2fe9ab84b4fc011a1fbfa575a93be9845a386a7f0c7d3"
+        },
+        {
+          "id": "fabric-language-kotlin",
+          "name": "Fabric Language Kotlin (cliente)",
+          "file": "fabric-language-kotlin-1.13.12+kotlin.2.4.0.jar",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/fabric-language-kotlin-1.13.12+kotlin.2.4.0.jar",
+          "sha256": "36c5dd8b728e3470d2882ae63119b93a20500fc0ea6f5c945c12bf65b5ab1832"
+        },
+        {
+          "id": "libipn",
+          "name": "libIPN (cliente)",
+          "file": "libIPN-fabric-26.1.2-6.8.2.jar",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/libIPN-fabric-26.1.2-6.8.2.jar",
+          "sha256": "e72cd91ee26077c9b7c7db12f8ec1db9d3547b9410f1b9290492809d12cc4683"
+        },
+        {
+          "id": "yacl",
+          "name": "YetAnotherConfigLib (YACL) (cliente)",
+          "file": "yet_another_config_lib_v3-3.9.5+26.1-fabric.jar",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/yet_another_config_lib_v3-3.9.5+26.1-fabric.jar",
+          "sha256": "836c823e18cdd9d15e7011a2e8b64f93bf4fb44e8f8e8df38d9114d265d1fe41"
+        },
+        {
+          "id": "placeholder-api",
+          "name": "Text Placeholder API (cliente)",
+          "file": "placeholder-api-3.0.0+26.1.jar",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/placeholder-api-3.0.0+26.1.jar",
+          "sha256": "7c4893195ab4bec56d05a5fd4521bd9bc8619ef11aa0a5c83a426a99d2191062"
+        },
+        {
+          "id": "iris",
+          "name": "Iris Shaders (cliente)",
+          "file": "iris-fabric-1.11.2+mc26.1.2.jar",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/iris-fabric-1.11.2+mc26.1.2.jar",
+          "sha256": "093769901decfa18c6e2f1f71f0c4d5889b87331d0c39442f1f40074ae4b345d",
+          "optional": true
+        },
+        {
+          "id": "3dskinlayers",
+          "name": "3D Skin Layers (cliente)",
+          "file": "skinlayers3d-fabric-1.11.2-mc26.1.jar",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/skinlayers3d-fabric-1.11.2-mc26.1.jar",
+          "sha256": "8443efa729b276431052b135b75c5abc418b864b0a547e69d2902e1e0420b9ff",
+          "optional": true
+        },
+        {
+          "id": "first-person-model",
+          "name": "First-person Model (cliente)",
+          "file": "firstperson-fabric-2.7.2-mc26.1.jar",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/firstperson-fabric-2.7.2-mc26.1.jar",
+          "sha256": "6ab1cfb2127b37e688281875090991da8130773fc8928fb5c6ba9245d1093b39",
+          "optional": true
+        },
+        {
+          "id": "lambdynamiclights",
+          "name": "LambDynamicLights - Dynamic Lights (cliente)",
+          "file": "lambdynamiclights-4.11.0+26.1.2.jar",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/lambdynamiclights-4.11.0+26.1.2.jar",
+          "sha256": "1d53d611e0c2762a5540426888efe42bb4fab16b4252b75dd8753ad7e2b35e4e",
+          "optional": true
+        },
+        {
+          "id": "continuity",
+          "name": "Continuity (cliente)",
+          "file": "continuity-3.0.1-beta.2+26.1.jar",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/continuity-3.0.1-beta.2+26.1.jar",
+          "sha256": "33e8acb7f264f691f2e6cf7c0d7b9152b54cf0353f37fc8a00d7312f26b36e3e",
+          "optional": true
+        },
+        {
+          "id": "entity-model-features",
+          "name": "[EMF] Entity Model Features (cliente)",
+          "file": "entity_model_features-3.2.4-26.1-fabric.jar",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/entity_model_features-3.2.4-26.1-fabric.jar",
+          "sha256": "07ff1b184ad9fcb9c540d3bb8d004d903474f90c195e4e3ce00be56faac243b8",
+          "optional": true
+        },
+        {
+          "id": "wavey-capes",
+          "name": "Wavey Capes (cliente)",
+          "file": "waveycapes-fabric-1.10.2-mc26.1.jar",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/waveycapes-fabric-1.10.2-mc26.1.jar",
+          "sha256": "104f57b741e008e266679d53390fb082ea469c59829f7fbe7acd1c458939d000",
+          "optional": true
+        },
+        {
+          "id": "no-chat-reports",
+          "name": "No Chat Reports (cliente)",
+          "file": "NoChatReports-FABRIC-26.1-v2.19.0.jar",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/NoChatReports-FABRIC-26.1-v2.19.0.jar",
+          "sha256": "b3249eeb1c63dd50c017a7b5e039ee84c9f685b7d0ddae7b3eb46a8735a537b4",
+          "optional": true
+        },
+        {
+          "id": "malilib",
+          "file": "malilib-fabric-26.1.2-0.28.9.jar",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/malilib-fabric-26.1.2-0.28.9.jar",
+          "sha256": "7f81e35ff7b65150448aecbfa384991ba7152d2f1bcac0ecd148bae59c8814ce",
+          "name": "MaLiLib (dependencia)",
+          "optional": false
+        },
+        {
+          "id": "minihud",
+          "file": "minihud-fabric-26.1.2-0.39.8.jar",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/minihud-fabric-26.1.2-0.39.8.jar",
+          "sha256": "8a1656f3d39da602e43416c38fede4bb6930857538fc9d3c18d30c7dae3717fb",
+          "name": "[Técnico] MiniHUD",
+          "optional": true
+        },
+        {
+          "id": "litematica",
+          "file": "litematica-fabric-26.1.2-0.27.10.jar",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/litematica-fabric-26.1.2-0.27.10.jar",
+          "sha256": "6ac5572c02fb7ad37d4bed3ddab05c709064e0d84a299c47ee3c27b98c88b194",
+          "name": "[Técnico] Litematica (schematics)",
+          "optional": true
+        },
+        {
+          "id": "tweakeroo",
+          "file": "tweakeroo-fabric-26.1.2-0.28.6.jar",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/tweakeroo-fabric-26.1.2-0.28.6.jar",
+          "sha256": "a076340e9cbdff78919ffdba91048b8b123cb3359a664b46028d44ad4713989a",
+          "name": "[Técnico] Tweakeroo",
+          "optional": true
+        },
+        {
+          "id": "jei",
+          "file": "jei-26.1.2-fabric-29.16.0.47.jar",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/jei-26.1.2-fabric-29.16.0.47.jar",
+          "sha256": "44411f277b9b1ef0698622573d03623e9b13aa461dd811720f42d691cc0f122e",
+          "name": "[Recetas] JEI",
+          "optional": true
+        }
+      ],
+      "files": [
+        {
+          "path": "shaderpacks/LOW_MakeUp_UltraFast.zip",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/LOW_MakeUp_UltraFast.zip",
+          "sha256": "8b62b38e6572f230b89035a14c13f596e85c29a7a7422d6a654204aac9ee8a05",
+          "name": "[LOW] MakeUp UltraFast"
+        },
+        {
+          "path": "shaderpacks/LOW_SuperDuperVanilla.zip",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/LOW_SuperDuperVanilla.zip",
+          "sha256": "c1cd481ac7ec81b6cb82f162b235509568f6f1ab9e416ccfedaee15e79e1a795",
+          "name": "[LOW] SuperDuperVanilla"
+        },
+        {
+          "path": "shaderpacks/LOW_Complementary_Unbound.zip",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/LOW_Complementary_Unbound.zip",
+          "sha256": "bb89b1fc54687d4147a837fb2e3c3f7261a13bee51819761e9b6a91cb7915965",
+          "name": "[LOW] Complementary Unbound"
+        },
+        {
+          "path": "shaderpacks/MED_BSL.zip",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/MED_BSL.zip",
+          "sha256": "185774628b5259c36255183fc1adeb0f64f89235f7ea2c826fa327d1112687a8",
+          "name": "[MED] BSL"
+        },
+        {
+          "path": "shaderpacks/MED_Solas.zip",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/MED_Solas.zip",
+          "sha256": "c8f53e66e567f2e8eacddbcc31ecbb6d77ac5f594d19423247c2a96c44d96a47",
+          "name": "[MED] Solas"
+        },
+        {
+          "path": "shaderpacks/MED_Mellow.zip",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/MED_Mellow.zip",
+          "sha256": "aa8bf0ba4d6f6540a9e185caf29051b17a40d1aa965f6d046fa66d4b40408d51",
+          "name": "[MED] Mellow"
+        },
+        {
+          "path": "shaderpacks/HIGH_Complementary_Reimagined.zip",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/HIGH_Complementary_Reimagined.zip",
+          "sha256": "3f1cd389e717b2e62f58edff222059b9c60de71b14bb49b517eb58318ce35b15",
+          "name": "[HIGH] Complementary Reimagined"
+        },
+        {
+          "path": "shaderpacks/HIGH_Photon.zip",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/HIGH_Photon.zip",
+          "sha256": "120897768eaa8cb1f14a3e98f88dff009ae3204ee3b96904a4fe8586edfc1ead",
+          "name": "[HIGH] Photon"
+        },
+        {
+          "path": "shaderpacks/HIGH_Bliss.zip",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/HIGH_Bliss.zip",
+          "sha256": "f41db92acc585fe9ffe0cc124d6ecaea27cef9ded91129ebc2a8e60226947b2c",
+          "name": "[HIGH] Bliss"
+        },
+        {
+          "path": "shaderpacks/HIGH_RethinkingVoxels.zip",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/HIGH_RethinkingVoxels.zip",
+          "sha256": "a8cd9d4338c7d3d1fffecc4525348a31ea3d219ef31382c51d5ddc3b4b0114e1",
+          "name": "[HIGH] RethinkingVoxels"
+        },
+        {
+          "path": "resourcepacks/fresh-animations.zip",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/fresh-animations.zip",
+          "sha256": "cf9f17a2977e171b33cb0b598bc4357dd0383e09c10d5f768ff17c12d0a028ee",
+          "name": "Fresh Animations"
+        },
+        {
+          "path": "resourcepacks/better-leaves.zip",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/better-leaves.zip",
+          "sha256": "5480640cb2f7674da4f2897ebc48b29a436706614160f4d4d8ad0ead5150fea6",
+          "name": "Better Leaves"
+        },
+        {
+          "path": "resourcepacks/tras-fresh-player.zip",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/tras-fresh-player.zip",
+          "sha256": "9100888b1153418ccb41b5af053d41e01f297ecd2da2d0ed031819177017638b",
+          "name": "Tras Fresh Player"
+        },
+        {
+          "path": "resourcepacks/low-on-fire.zip",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/low-on-fire.zip",
+          "sha256": "25fc89fedc6d47fe2480a60910c65c8fd8b50121aaab919933e47cc6ba730a67",
+          "name": "Low On Fire"
+        },
+        {
+          "path": "resourcepacks/fast-better-grass.zip",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/fast-better-grass.zip",
+          "sha256": "1811613f9eeadcfae674006480016da367c37469e04b9c8c74ce2f6520bb5ac9",
+          "name": "Fast Better Grass"
+        },
+        {
+          "path": "resourcepacks/fullbright-ub.zip",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/fullbright-ub.zip",
+          "sha256": "f345eea2b89749e15c485fc617f4f2f3b32ca5a3f6e3dc1601616d75f124c0cb",
+          "name": "Fullbright Ub"
+        },
+        {
+          "path": "resourcepacks/dramatic-skys.zip",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/dramatic-skys.zip",
+          "sha256": "404c3f922f6b865f0f492de9bd7a85a98492cb87634745d37aaea74c44d93f80",
+          "name": "Dramatic Skys"
+        },
+        {
+          "path": "resourcepacks/fresh-animations-extensions.zip",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/fresh-animations-extensions.zip",
+          "sha256": "027acba5f64c9d1bf5ccb8daecb7fc756961bfeee866434a0ee5f7809a48d326",
+          "name": "Fresh Animations Extensions"
+        },
+        {
+          "path": "resourcepacks/bare-bones.zip",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/bare-bones.zip",
+          "sha256": "698dad3fa24f2d96cf2edf5fbe6ce782adf4180c4d113e79dd0fc75f70617ad3",
+          "name": "Bare Bones"
+        },
+        {
+          "path": "resourcepacks/e19_cobblemon_minimap_icons.zip",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/e19_cobblemon_minimap_icons.zip",
+          "sha256": "8732ecb1ee0b8cceda4ad973ffcf53e0c6689f503652320107d2569c0cd7f9ba",
+          "name": "E19_Cobblemon_Minimap_Icons"
+        },
+        {
+          "path": "resourcepacks/pvp_crystal-pvp-lt3-essentials.zip",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/pvp_crystal-pvp-lt3-essentials.zip",
+          "sha256": "62ed957848674b15ab8ecf2187afac2b40d3cb233568c71b0b4990a38217835c",
+          "name": "[PvP] Crystal-Pvp-Lt3-Essentials"
+        },
+        {
+          "path": "resourcepacks/pvp_crystal-vanilla-tweaks.zip",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/pvp_crystal-vanilla-tweaks.zip",
+          "sha256": "c2439c52a77404fe4e6f51fd6f08cea7d852caaa6777a6caafed42806b77852d",
+          "name": "[PvP] Crystal-Vanilla-Tweaks"
+        },
+        {
+          "path": "resourcepacks/pvp_faithless.zip",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/pvp_faithless.zip",
+          "sha256": "d5bb2b1112aefbad54b12783bf7e46e5ecb6e4ecb2d293739293360f74d73100",
+          "name": "[PvP] Faithless"
+        },
+        {
+          "path": "resourcepacks/pvp_low-shield-pvp.zip",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/pvp_low-shield-pvp.zip",
+          "sha256": "e8e77e18dece40b5248e5811b16b72f9c31ec649ce19280fc87867ee6881531a",
+          "name": "[PvP] Low-Shield-Pvp"
+        },
+        {
+          "path": "resourcepacks/pvp_no-explosion-particles.zip",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/pvp_no-explosion-particles.zip",
+          "sha256": "ef9ee98bdbd0ed8ef653af09ab1f4308770b3e93e4fdc3ed731567e1d30f579d",
+          "name": "[PvP] No-Explosion-Particles"
+        },
+        {
+          "path": "resourcepacks/pvp_pvp-crosshair.zip",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/pvp_pvp-crosshair.zip",
+          "sha256": "93bf7b0fa98db3804b34f22e8fe67ff7fcb4c73cffd20945a2c285d125626d86",
+          "name": "[PvP] Pvp-Crosshair"
+        },
+        {
+          "path": "resourcepacks/pvp_pvp-smp-deluxe.zip",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/pvp_pvp-smp-deluxe.zip",
+          "sha256": "85954024557396ec861edb6671c0e44d4e04630ffc367403a63f6f02930f12ca",
+          "name": "[PvP] Pvp-Smp-Deluxe"
+        },
+        {
+          "path": "resourcepacks/pvp_pvp-zegarn.zip",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/pvp_pvp-zegarn.zip",
+          "sha256": "bb5a8769eec99ef9f5ea728b9e8433e6f1c0a5e5ea59294e633b96b556238d5e",
+          "name": "[PvP] Pvp-Zegarn"
+        },
+        {
+          "path": "resourcepacks/pvp_short-pvp-swords.zip",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/pvp_short-pvp-swords.zip",
+          "sha256": "a67f152722ba3c916e7e97d87c368ab0252ff03009f96f234ef34e78646394d0",
+          "name": "[PvP] Short-Pvp-Swords"
+        },
+        {
+          "path": "resourcepacks/pvp_spunky-pvp-texture-pack.zip",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-vanilla-v1/pvp_spunky-pvp-texture-pack.zip",
+          "sha256": "96e50e4b7e2888daf3b7ac39ed94bd0f7c8b03262791f011319ef5e124065d1f",
+          "name": "[PvP] Spunky-Pvp-Texture-Pack"
+        }
+      ],
+      "game": {
+        "resourcePacks": [
+          "file/fresh-animations-extensions.zip",
+          "file/fresh-animations.zip",
+          "file/tras-fresh-player.zip",
+          "file/better-leaves.zip",
+          "file/fast-better-grass.zip"
         ]
       }
-    ]
-  }
+    },
+    {
+      "id": "laboratorio",
+      "name": "🧪 El Laboratorio",
+      "description": "Mod-a-Day: cada día un mod nuevo. Proyecto ambicioso — próximamente.",
+      "minecraft": {
+        "version": "26.1.2"
+      },
+      "loader": {
+        "type": "fabric",
+        "version": "0.17.2"
+      },
+      "theme": {
+        "accent": "#5ad2f0"
+      },
+      "branding": {
+        "wallpaperUrl": "https://bvnjx.github.io/lixlab-dist/wallpapers/laboratorio.svg",
+        "heroTitle": "LABORA<span class='accent'>·</span>TORIO",
+        "heroSub": "Próximamente"
+      },
+      "mods": [],
+      "files": []
+    }
+  ]
 }
