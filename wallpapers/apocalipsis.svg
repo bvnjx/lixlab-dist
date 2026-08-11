@@ -1,93 +1,170 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
   <defs>
-    <linearGradient id="cielo" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#1a2118"/>
-      <stop offset="45%" stop-color="#2b3524"/>
-      <stop offset="100%" stop-color="#4a4a2c"/>
+    <linearGradient id="noche" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1c2b33"/>
+      <stop offset="55%" stop-color="#2a3c44"/>
+      <stop offset="100%" stop-color="#3a4e56"/>
     </linearGradient>
-    <linearGradient id="niebla" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#7d8c5a" stop-opacity="0"/>
-      <stop offset="100%" stop-color="#8fa05f" stop-opacity=".28"/>
+    <linearGradient id="mar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3b525c"/>
+      <stop offset="100%" stop-color="#2b3d46"/>
     </linearGradient>
-    <radialGradient id="luna" cx="50%" cy="50%">
-      <stop offset="0%" stop-color="#c9e86b" stop-opacity=".95"/>
-      <stop offset="60%" stop-color="#8fbc3f" stop-opacity=".35"/>
-      <stop offset="100%" stop-color="#8fbc3f" stop-opacity="0"/>
+    <linearGradient id="bruma" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8fb0bd" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#9dbdc9" stop-opacity=".30"/>
+    </linearGradient>
+    <radialGradient id="halo-blanca" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#eaf6f8" stop-opacity=".85"/>
+      <stop offset="45%" stop-color="#cfe6ea" stop-opacity=".28"/>
+      <stop offset="100%" stop-color="#cfe6ea" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="halo-roja" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#ff6a4d" stop-opacity=".7"/>
+      <stop offset="50%" stop-color="#e03a25" stop-opacity=".22"/>
+      <stop offset="100%" stop-color="#e03a25" stop-opacity="0"/>
     </radialGradient>
   </defs>
 
-  <rect width="1600" height="900" fill="url(#cielo)"/>
+  <rect width="1600" height="900" fill="url(#noche)"/>
 
-  <!-- luna enferma -->
-  <circle cx="1230" cy="200" r="150" fill="url(#luna)"/>
-  <circle cx="1230" cy="200" r="54" fill="#d6ef82" opacity=".9"/>
-  <circle cx="1205" cy="185" r="11" fill="#b8d162" opacity=".55"/>
-  <circle cx="1252" cy="215" r="8" fill="#b8d162" opacity=".45"/>
+  <!-- las dos lunas: la blanca y la de sangre -->
+  <circle cx="1215" cy="185" r="165" fill="url(#halo-blanca)"/>
+  <circle cx="1215" cy="185" r="72" fill="#e8f4f6"/>
+  <circle cx="1192" cy="168" r="13" fill="#cfe0e4" opacity=".8"/>
+  <circle cx="1236" cy="203" r="9"  fill="#cfe0e4" opacity=".7"/>
+  <circle cx="1205" cy="212" r="6"  fill="#cfe0e4" opacity=".6"/>
 
-  <!-- horizonte lejano -->
-  <g opacity=".35" fill="#0e120c">
-    <rect x="60" y="470" width="70" height="240"/><rect x="150" y="520" width="52" height="190"/>
-    <rect x="240" y="440" width="86" height="270"/><rect x="350" y="505" width="60" height="205"/>
-    <rect x="1180" y="455" width="78" height="255"/><rect x="1290" y="510" width="56" height="200"/>
-    <rect x="1380" y="430" width="92" height="280"/>
+  <circle cx="1440" cy="150" r="140" fill="url(#halo-roja)"/>
+  <circle cx="1440" cy="150" r="62" fill="#d94a32"/>
+  <circle cx="1421" cy="136" r="11" fill="#b83a26" opacity=".8"/>
+  <circle cx="1458" cy="166" r="8"  fill="#b83a26" opacity=".7"/>
+
+  <!-- rascacielos lejanos, tragados por la bruma -->
+  <g fill="#28383f" opacity=".55">
+    <rect x="120" y="330" width="74" height="330"/><rect x="215" y="395" width="56" height="265"/>
+    <rect x="300" y="300" width="86" height="360"/><rect x="410" y="370" width="62" height="290"/>
+    <rect x="900" y="345" width="70" height="315"/><rect x="1000" y="300" width="88" height="360"/>
+    <rect x="1290" y="390" width="60" height="270"/><rect x="1380" y="330" width="80" height="330"/>
   </g>
 
-  <!-- ciudad en ruinas -->
-  <g fill="#141a10">
-    <path d="M120 700 L120 380 L250 380 L250 330 L300 330 L300 700 Z"/>
-    <path d="M330 700 L330 450 L420 450 L430 410 L470 450 L470 700 Z"/>
-    <path d="M500 700 L500 300 L560 300 L560 270 L620 285 L620 700 Z"/>
-    <path d="M660 700 L660 420 L700 400 L760 420 L760 700 Z"/>
-    <path d="M800 700 L800 350 L880 350 L880 320 L930 340 L930 700 Z"/>
-    <path d="M970 700 L970 460 L1060 460 L1060 700 Z"/>
-    <path d="M1100 700 L1100 390 L1150 370 L1210 400 L1210 700 Z"/>
-    <path d="M1250 700 L1250 480 L1340 460 L1340 700 Z"/>
-    <path d="M1380 700 L1380 420 L1470 420 L1470 700 Z"/>
+  <!-- ciudad principal en ruinas -->
+  <g fill="#1e2c33">
+    <path d="M150 660 L150 380 L245 380 L245 340 L262 340 L262 660 Z"/>
+    <path d="M290 660 L290 250 L400 250 L400 215 L418 232 L418 660 Z"/>
+    <path d="M440 660 L440 320 L520 320 L520 296 L560 310 L560 660 Z"/>
+    <path d="M590 660 L590 200 L690 200 L690 660 Z"/>
+    <path d="M715 660 L715 300 L800 285 L800 660 Z"/>
+    <path d="M830 660 L830 240 L930 240 L930 660 Z"/>
+    <path d="M960 660 L960 340 L1040 320 L1040 660 Z"/>
+    <path d="M1070 660 L1070 270 L1160 270 L1160 660 Z"/>
+    <path d="M1330 660 L1330 350 L1420 335 L1420 660 Z"/>
+    <path d="M1450 660 L1450 420 L1540 400 L1540 660 Z"/>
   </g>
 
-  <!-- ventanas encendidas, pocas y dispersas -->
-  <g fill="#c9e86b" opacity=".5">
-    <rect x="145" y="420" width="12" height="16"/><rect x="175" y="470" width="12" height="16"/>
-    <rect x="215" y="530" width="12" height="16"/><rect x="520" y="340" width="12" height="16"/>
-    <rect x="575" y="400" width="12" height="16"/><rect x="820" y="390" width="12" height="16"/>
-    <rect x="890" y="440" width="12" height="16"/><rect x="1120" y="430" width="12" height="16"/>
-    <rect x="1270" y="520" width="12" height="16"/><rect x="1410" y="470" width="12" height="16"/>
-  </g>
-  <g fill="#ff6b3d" opacity=".35">
-    <rect x="360" y="500" width="12" height="16"/><rect x="690" y="470" width="12" height="16"/>
-    <rect x="1010" y="510" width="12" height="16"/>
+  <!-- azoteas rotas -->
+  <g fill="#16222a">
+    <rect x="590" y="200" width="42" height="16"/><rect x="656" y="192" width="34" height="24"/>
+    <rect x="830" y="240" width="30" height="20"/><rect x="1100" y="262" width="38" height="14"/>
+    <rect x="640" y="150" width="6" height="52"/><rect x="880" y="196" width="5" height="46"/>
   </g>
 
-  <!-- humo -->
-  <g opacity=".16" fill="#9fb06f">
-    <ellipse cx="540" cy="250" rx="120" ry="42"/>
-    <ellipse cx="880" cy="290" rx="150" ry="36"/>
-    <ellipse cx="1150" cy="330" rx="110" ry="30"/>
+  <!-- vegetación reclamando los edificios -->
+  <g fill="#3b5a3e" opacity=".6">
+    <rect x="150" y="380" width="40" height="26"/><rect x="160" y="406" width="26" height="18"/>
+    <rect x="590" y="200" width="46" height="22"/><rect x="600" y="222" width="28" height="16"/>
+    <rect x="1070" y="270" width="42" height="20"/>
+    <rect x="1330" y="350" width="36" height="22"/>
   </g>
 
-  <!-- niebla baja -->
-  <rect x="0" y="560" width="1600" height="340" fill="url(#niebla)"/>
-
-  <!-- suelo -->
-  <rect x="0" y="700" width="1600" height="200" fill="#0b0f08"/>
-  <g opacity=".5" fill="#1a2412">
-    <rect x="0" y="700" width="1600" height="8"/>
-    <rect x="120" y="730" width="180" height="6"/><rect x="420" y="760" width="240" height="6"/>
-    <rect x="900" y="740" width="200" height="6"/><rect x="1250" y="775" width="260" height="6"/>
+  <!-- ojos rojos en las ventanas: la ciudad mira -->
+  <g fill="#ff4b3a">
+    <rect x="330" y="430" width="7" height="7" opacity=".9"/><rect x="470" y="500" width="7" height="7" opacity=".75"/>
+    <rect x="620" y="330" width="7" height="7" opacity=".95"/><rect x="660" y="470" width="7" height="7" opacity=".7"/>
+    <rect x="750" y="390" width="7" height="7" opacity=".85"/><rect x="870" y="300" width="7" height="7" opacity=".9"/>
+    <rect x="905" y="480" width="7" height="7" opacity=".65"/><rect x="990" y="420" width="7" height="7" opacity=".8"/>
+    <rect x="1110" y="350" width="7" height="7" opacity=".9"/><rect x="1140" y="520" width="7" height="7" opacity=".6"/>
+    <rect x="1360" y="440" width="7" height="7" opacity=".75"/><rect x="1480" y="500" width="7" height="7" opacity=".7"/>
+    <rect x="200" y="560" width="7" height="7" opacity=".6"/><rect x="520" y="600" width="7" height="7" opacity=".5"/>
   </g>
 
-  <!-- siluetas caminando -->
-  <g fill="#080b06" opacity=".85">
-    <g transform="translate(430,700)"><rect x="-5" y="-46" width="11" height="30"/><rect x="-8" y="-58" width="17" height="14"/><rect x="-11" y="-40" width="7" height="18"/><rect x="6" y="-40" width="7" height="20"/></g>
-    <g transform="translate(700,700)"><rect x="-6" y="-52" width="12" height="34"/><rect x="-9" y="-66" width="19" height="15"/><rect x="-13" y="-44" width="8" height="22"/><rect x="7" y="-46" width="8" height="24"/></g>
-    <g transform="translate(1040,700)"><rect x="-5" y="-44" width="11" height="28"/><rect x="-8" y="-56" width="17" height="13"/><rect x="-12" y="-38" width="7" height="19"/><rect x="6" y="-38" width="7" height="17"/></g>
+  <!-- bruma sobre la ciudad -->
+  <rect x="0" y="380" width="1600" height="290" fill="url(#bruma)"/>
+
+  <!-- agua -->
+  <rect x="0" y="660" width="1600" height="240" fill="url(#mar)"/>
+  <g fill="#c2dbe2" opacity=".22">
+    <rect x="980" y="700" width="150" height="5"/><rect x="1180" y="730" width="120" height="5"/>
+    <rect x="880" y="760" width="180" height="5"/><rect x="1280" y="690" width="100" height="5"/>
+  </g>
+  <!-- reflejo de las lunas -->
+  <g opacity=".18">
+    <rect x="1180" y="680" width="70" height="6" fill="#e8f4f6"/>
+    <rect x="1190" y="710" width="50" height="5" fill="#e8f4f6"/>
+    <rect x="1415" y="676" width="52" height="6" fill="#d94a32"/>
   </g>
 
-  <!-- viñeta -->
-  <rect width="1600" height="900" fill="none"/>
-  <radialGradient id="vin" cx="50%" cy="45%" r="75%">
-    <stop offset="55%" stop-color="#000" stop-opacity="0"/>
-    <stop offset="100%" stop-color="#000" stop-opacity=".65"/>
+  <!-- muelle de madera -->
+  <g fill="#4a3a2a">
+    <rect x="430" y="700" width="470" height="16"/>
+    <rect x="452" y="716" width="12" height="46"/><rect x="560" y="716" width="12" height="46"/>
+    <rect x="670" y="716" width="12" height="46"/><rect x="780" y="716" width="12" height="46"/>
+    <rect x="870" y="716" width="12" height="46"/>
+  </g>
+  <g fill="#5c4832">
+    <rect x="430" y="700" width="60" height="16"/><rect x="530" y="700" width="60" height="16"/>
+    <rect x="630" y="700" width="60" height="16"/><rect x="740" y="700" width="60" height="16"/>
+  </g>
+
+  <!-- orilla: tierra y pasto en bloques -->
+  <g>
+    <rect x="0" y="640" width="300" height="30" fill="#4a6340"/>
+    <rect x="0" y="670" width="300" height="120" fill="#5c4632"/>
+    <rect x="0" y="600" width="180" height="40" fill="#4a6340"/>
+    <rect x="0" y="560" width="90" height="40" fill="#4a6340"/>
+    <rect x="300" y="672" width="130" height="28" fill="#6b7a6a"/>
+    <rect x="300" y="700" width="130" height="90" fill="#4a4a48"/>
+  </g>
+
+  <!-- cajas de TNT y suministros -->
+  <g>
+    <rect x="40" y="700" width="42" height="42" fill="#c4392c"/>
+    <rect x="40" y="712" width="42" height="16" fill="#efe6d8"/>
+    <rect x="90" y="700" width="42" height="42" fill="#c4392c"/>
+    <rect x="90" y="712" width="42" height="16" fill="#efe6d8"/>
+    <rect x="160" y="706" width="46" height="36" fill="#8a6a3f"/>
+    <rect x="160" y="718" width="46" height="7" fill="#6b5130"/>
+  </g>
+
+  <!-- caminantes -->
+  <g>
+    <g transform="translate(215,640)">
+      <rect x="-9" y="-46" width="19" height="28" fill="#3f6b45"/>
+      <rect x="-8" y="-64" width="17" height="18" fill="#4d7d52"/>
+      <rect x="-16" y="-44" width="8" height="22" fill="#3f6b45"/><rect x="10" y="-44" width="8" height="22" fill="#3f6b45"/>
+      <rect x="-8" y="-18" width="7" height="18" fill="#33455e"/><rect x="2" y="-18" width="7" height="18" fill="#33455e"/>
+      <rect x="-5" y="-58" width="3" height="3" fill="#ff4b3a"/><rect x="3" y="-58" width="3" height="3" fill="#ff4b3a"/>
+    </g>
+    <g transform="translate(330,672)">
+      <rect x="-9" y="-46" width="19" height="28" fill="#3f6b45"/>
+      <rect x="-8" y="-64" width="17" height="18" fill="#4d7d52"/>
+      <rect x="-16" y="-46" width="8" height="24" fill="#3f6b45"/><rect x="10" y="-42" width="8" height="20" fill="#3f6b45"/>
+      <rect x="-8" y="-18" width="7" height="18" fill="#33455e"/><rect x="2" y="-18" width="7" height="18" fill="#33455e"/>
+      <rect x="-5" y="-58" width="3" height="3" fill="#ff4b3a"/><rect x="3" y="-58" width="3" height="3" fill="#ff4b3a"/>
+    </g>
+    <g transform="translate(150,600)" opacity=".9">
+      <rect x="-8" y="-42" width="17" height="26" fill="#2f2f38"/>
+      <rect x="-7" y="-58" width="15" height="16" fill="#3a3a44"/>
+      <rect x="-14" y="-40" width="7" height="20" fill="#2f2f38"/><rect x="9" y="-40" width="7" height="20" fill="#2f2f38"/>
+      <rect x="-7" y="-16" width="6" height="16" fill="#22222a"/><rect x="2" y="-16" width="6" height="16" fill="#22222a"/>
+    </g>
+  </g>
+
+  <!-- bruma baja sobre el agua -->
+  <rect x="0" y="640" width="1600" height="180" fill="url(#bruma)" opacity=".7"/>
+
+  <radialGradient id="vin" cx="50%" cy="45%" r="78%">
+    <stop offset="52%" stop-color="#000" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#000" stop-opacity=".6"/>
   </radialGradient>
   <rect width="1600" height="900" fill="url(#vin)"/>
 </svg>
