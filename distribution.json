@@ -52,13 +52,13 @@
   ],
   "branding": {},
   "launcher": {
-    "latestVersion": "1.3.4",
+    "latestVersion": "1.3.5",
     "changelog": [
       {
-        "version": "1.3.4",
+        "version": "1.3.5",
         "date": "2026-08-11",
         "changes": [
-          "Cada mundo tine el cliente entero: navegacion, paneles y fondo.",
+          "El cliente toma los colores de cada mundo.",
           "Wallpapers 16:9 en alta resolucion.",
           "El aviso de novedades ya no reaparece cada vez.",
           "Soporte Forge y actualizacion automatica."
