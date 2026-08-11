@@ -23,6 +23,11 @@
       },
       "mods": [
         {
+          "file": "1.20.1-SecurityCraft-v1.10.0.1.jar",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/1.20.1-SecurityCraft-v1.10.0.1.jar",
+          "sha256": "db2f56d0b37006e0de24d53fe94a38d9fd1d10eadf384a719a37c8d15bbb88dc"
+        },
+        {
           "file": "1.8.1+1.20.1+forge.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/1.8.1+1.20.1+forge.jar",
           "sha256": "7d6341c1f3fb6b28f056759ae10de0796d3f57b3e3f975c2082d4670725ea12e"
@@ -158,6 +163,11 @@
           "sha256": "584485676bdad39df90d38a6730d132e6dff966683a8a2359d8269c919a1c07e"
         },
         {
+          "file": "Item-Obliterator-NeoForge-MC1.20.1-2.3.1.jar",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/Item-Obliterator-NeoForge-MC1.20.1-2.3.1.jar",
+          "sha256": "a0de109d3405fbf4290e10df4f812eadd5125debb16ea7e9d908acbbabcb516b"
+        },
+        {
           "file": "Item-Scrapper-Pack-Armor-Tools.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/Item-Scrapper-Pack-Armor-Tools.jar",
           "sha256": "84d4402d19e9687839710ff9c5c837c53c994a6f8478458404a8fdb94afc8fab"
@@ -166,11 +176,6 @@
           "file": "Item-Scrapper-Pack-TACZ.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/Item-Scrapper-Pack-TACZ.jar",
           "sha256": "abcdc3143deb4b486b5a2a213f48b84ecd536bfdcf8d41ac4a5b2ab34e23259c"
-        },
-        {
-          "file": "Item-Obliterator-NeoForge-MC1.20.1-2.3.1.jar",
-          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/Item-Obliterator-NeoForge-MC1.20.1-2.3.1.jar",
-          "sha256": "a0de109d3405fbf4290e10df4f812eadd5125debb16ea7e9d908acbbabcb516b"
         },
         {
           "file": "Jade-1.20.1-Forge-11.13.2.jar",
@@ -336,11 +341,6 @@
           "file": "YungsBetterMineshafts-1.20-Forge-4.0.4.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/YungsBetterMineshafts-1.20-Forge-4.0.4.jar",
           "sha256": "6632e7bcc58325098e85bcb755483de7cb3af92a5ea548f3b5c0162cbf0dc1dc"
-        },
-        {
-          "file": "1.20.1-SecurityCraft-v1.10.0.1.jar",
-          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/1.20.1-SecurityCraft-v1.10.0.1.jar",
-          "sha256": "db2f56d0b37006e0de24d53fe94a38d9fd1d10eadf384a719a37c8d15bbb88dc"
         },
         {
           "file": "access_denied-6.2.1.jar",
@@ -566,6 +566,16 @@
           "file": "dynamiclights-v1.9-mc1.17-1.21.5-mod.jar",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/dynamiclights-v1.9-mc1.17-1.21.5-mod.jar",
           "sha256": "ebe75b8d8a50cfbbf42daccb78b2d8b80c57e33c866dd4409e5403ffb4c7c7f4"
+        },
+        {
+          "file": "easy_npc-forge-1.20.1-7.6.0.jar",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/easy_npc-forge-1.20.1-7.6.0.jar",
+          "sha256": "b1b83e11e63e638c12688cb7900c9b109f8aa6fe8915032b8b7a389eb99bead2"
+        },
+        {
+          "file": "easy_npc_config_ui-forge-1.20.1-7.6.0.jar",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/easy_npc_config_ui-forge-1.20.1-7.6.0.jar",
+          "sha256": "59ea8361250decc225d0110046d5b7f21432e00339c96dd01a198c16b79fc76d"
         },
         {
           "file": "eatinganimation-1.20.1-5.1.0.jar",
