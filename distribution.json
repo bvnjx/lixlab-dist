@@ -19,7 +19,7 @@
       },
       "loader": {
         "type": "forge",
-        "version": "47.4.0"
+        "version": "47.4.10"
       },
       "mods": [
         {
