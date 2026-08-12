@@ -1,6 +1,6 @@
 {
   "formatVersion": 1,
-  "updatedAt": "2026-08-11T20:37:10Z",
+  "updatedAt": "2026-08-12T01:00:58Z",
   "minecraft": {
     "version": "1.20.1"
   },
@@ -1533,6 +1533,24 @@
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/zombies_plus-2.1.2-1.20-.4excl.3-forge-fabric.jar",
           "sha256": "1aa6b95b2036f754f2910f5026eb16df8a6fd16a1b24d489c1592bb1277dcf0c",
           "name": "Zombies plus .4excl.3"
+        },
+        {
+          "file": "ParCool-1.20.1-3.4.3.3.jar",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/ParCool-1.20.1-3.4.3.3.jar",
+          "sha256": "2ddef8752b5a1428035b95f29e62c81e33b80d37851681e1b928d8a01615c6e7",
+          "name": "ParCool"
+        },
+        {
+          "file": "supplementaries-1.20-3.1.43-forge.jar",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/supplementaries-1.20-3.1.43-forge.jar",
+          "sha256": "6132fc23a2fe1da0ca57439b35526ee9a1a8d898397ff8e61b2d08fb951cdf6a",
+          "name": "Supplementaries"
+        },
+        {
+          "file": "ToughAsNails-forge-1.20.1-9.2.0.171.jar",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/ToughAsNails-forge-1.20.1-9.2.0.171.jar",
+          "sha256": "89c948acbfc377179156e1d6bde6c68f404b131f6f48fecce1943f8904de4de9",
+          "name": "Tough As Nails"
         }
       ],
       "files": [
