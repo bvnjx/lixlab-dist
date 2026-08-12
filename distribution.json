@@ -1,6 +1,6 @@
 {
   "formatVersion": 1,
-  "updatedAt": "2026-08-12T01:00:58Z",
+  "updatedAt": "2026-08-12T01:11:30Z",
   "minecraft": {
     "version": "1.20.1"
   },
@@ -52,8 +52,17 @@
   ],
   "branding": {},
   "launcher": {
-    "latestVersion": "1.3.6",
+    "latestVersion": "1.3.7",
     "changelog": [
+      {
+        "version": "1.3.7",
+        "date": "2026-08-12",
+        "changes": [
+          "Apocalipsis Z: ya puedes entrar al servidor.",
+          "El pack crea items propios por script y ahora te llegan a ti tambien.",
+          "El primer arranque abre directo en el menu."
+        ]
+      },
       {
         "version": "1.3.6",
         "date": "2026-08-11",
@@ -135,7 +144,8 @@
           "Primera beta: login Microsoft y sin cuenta, perfiles Play Mods / Play Vanilla, mods auto-sincronizados, RAM automatica"
         ]
       }
-    ]
+    ],
+    "minVersion": "1.3.7"
   },
   "profiles": [
     {
@@ -1589,6 +1599,346 @@
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/FreshAnimations_v1.9.2.zip",
           "sha256": "7ecee4567bd999ce6d45897b0b196a9342ff325f550031a15fffaaf81342dc1b",
           "overwrite": "once"
+        },
+        {
+          "path": "kubejs/config/client.properties",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-kubejs-v1/config~client.properties",
+          "sha256": "8d494318f9a0dd1b0978b039b3e9d92abb9516af1d2db41a4f52272b0c6be7c4"
+        },
+        {
+          "path": "kubejs/config/common.properties",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-kubejs-v1/config~common.properties",
+          "sha256": "74c894fc10232f4be0812bdc2c9acae9fcb584afd4a9d6b5208f8b4369f5869d"
+        },
+        {
+          "path": "kubejs/assets/kubejs/textures/item/adrenaline_shot.png",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-kubejs-v1/assets~kubejs~textures~item~adrenaline_shot.png",
+          "sha256": "39c8de1085b8542db6f85f65acb2620bfa19d28463057891e60ecd12905c1232"
+        },
+        {
+          "path": "kubejs/assets/kubejs/textures/item/adrenaline_shot_enhanced.png",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-kubejs-v1/assets~kubejs~textures~item~adrenaline_shot_enhanced.png",
+          "sha256": "9ea0e37590ee4880b35addf8c4a888a695ca50151d2d4f71bb9d0e4c326f71a4"
+        },
+        {
+          "path": "kubejs/assets/kubejs/textures/item/advanced_cw_circuit_board.png",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-kubejs-v1/assets~kubejs~textures~item~advanced_cw_circuit_board.png",
+          "sha256": "9f21da5a2d6853181a034fa7ab81a64b89857487290c3e9bb20fc1fd31b8db5b"
+        },
+        {
+          "path": "kubejs/assets/kubejs/textures/item/cables.png",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-kubejs-v1/assets~kubejs~textures~item~cables.png",
+          "sha256": "022b88652b80963c097a2d608d91e49a0920f606ae076ade1c529802b9e9b8f1"
+        },
+        {
+          "path": "kubejs/assets/kubejs/textures/item/cw_circuit_board.png",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-kubejs-v1/assets~kubejs~textures~item~cw_circuit_board.png",
+          "sha256": "18cbdea3c6453eda955a0de344863ba1bce23113785e2ba81a9de9da820b2314"
+        },
+        {
+          "path": "kubejs/assets/kubejs/textures/item/defib_casing.png",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-kubejs-v1/assets~kubejs~textures~item~defib_casing.png",
+          "sha256": "79836257352e4cfa98aef3a39c545ca2cbd7d1a909b3b3af4c5bd38d753b6395"
+        },
+        {
+          "path": "kubejs/assets/kubejs/textures/item/example_item.png",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-kubejs-v1/assets~kubejs~textures~item~example_item.png",
+          "sha256": "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b"
+        },
+        {
+          "path": "kubejs/assets/kubejs/textures/item/morphine_shot.png",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-kubejs-v1/assets~kubejs~textures~item~morphine_shot.png",
+          "sha256": "7fefcc68c56151b09298c22e4dc1995f0e7397fad8d335e0138c9a471b6d196e"
+        },
+        {
+          "path": "kubejs/assets/kubejs/textures/item/morphine_shot_enhanced.png",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-kubejs-v1/assets~kubejs~textures~item~morphine_shot_enhanced.png",
+          "sha256": "b7b7c29981a72703ca1404994ecefa198d07f02c9eea3a13131861a9733aae1d"
+        },
+        {
+          "path": "kubejs/assets/kubejs/textures/item/shock_component.png",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-kubejs-v1/assets~kubejs~textures~item~shock_component.png",
+          "sha256": "7095f937f42339772da04f3d16c29db8282ee43e37f117eb0018b12e07ed386d"
+        },
+        {
+          "path": "kubejs/assets/kubejs/textures/item/steriod_shot.png",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-kubejs-v1/assets~kubejs~textures~item~steriod_shot.png",
+          "sha256": "6803d1eacd42c03793c201f45c3e8428b6ccd87ac608d53100ac93ea6ce6749b"
+        },
+        {
+          "path": "kubejs/assets/kubejs/textures/item/steriod_shot_enhanced.png",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-kubejs-v1/assets~kubejs~textures~item~steriod_shot_enhanced.png",
+          "sha256": "3d3aa6c73c1cbbf2c4103853899232d222bd48d0bbcc2296e0df089977a8d3ec"
+        },
+        {
+          "path": "kubejs/assets/kubejs/textures/item/suspicious_medicine.png",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-kubejs-v1/assets~kubejs~textures~item~suspicious_medicine.png",
+          "sha256": "b4ce1171f033232e5622ad995ad6dd55d80e673602379379c2271a152c70af0d"
+        },
+        {
+          "path": "kubejs/assets/kubejs/textures/block/gb_bottom.png",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-kubejs-v1/assets~kubejs~textures~block~gb_bottom.png",
+          "sha256": "19550b699c6480327629eb956f21c67a238a0e1b96f5b041002b89b44ff8f525"
+        },
+        {
+          "path": "kubejs/assets/kubejs/textures/block/gb_side1.png",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-kubejs-v1/assets~kubejs~textures~block~gb_side1.png",
+          "sha256": "4048ff44cf5b609665bac83f294ac60e27b6c4f048f63f01e6e62084fb107f57"
+        },
+        {
+          "path": "kubejs/assets/kubejs/textures/block/gb_top.png",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-kubejs-v1/assets~kubejs~textures~block~gb_top.png",
+          "sha256": "53efe41d40edcf20303e8cceac6b073992cc715f5c849e2a1ad194c8800f2f39"
+        },
+        {
+          "path": "kubejs/assets/kubejs/textures/block/sb_bottom.png",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-kubejs-v1/assets~kubejs~textures~block~sb_bottom.png",
+          "sha256": "15956f840d06c96172ac0c0b5ef14ba1bc2d97f02e670a30a6d58f52dea5401b"
+        },
+        {
+          "path": "kubejs/assets/kubejs/textures/block/sb_side.png",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-kubejs-v1/assets~kubejs~textures~block~sb_side.png",
+          "sha256": "eea8c8e24eaa180afb6662896b6b7ca8c6a1103d266c30fe2dbd6422e329073f"
+        },
+        {
+          "path": "kubejs/assets/kubejs/textures/block/sb_top.png",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-kubejs-v1/assets~kubejs~textures~block~sb_top.png",
+          "sha256": "331dc3e19654ed555c705585f3c6888a1d5e0fa8800d85fb213376a819a14a75"
+        },
+        {
+          "path": "kubejs/assets/cw/textures/quests/637998216126755132.png",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-kubejs-v1/assets~cw~textures~quests~637998216126755132.png",
+          "sha256": "328493192d0c4ee2cd2288f702849a0bbce52e0a5365e0a2ea3b1253dbc065e4"
+        },
+        {
+          "path": "kubejs/assets/cw/textures/quests/andesiteage.png",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-kubejs-v1/assets~cw~textures~quests~andesiteage.png",
+          "sha256": "6ef67a3511e5fa37694318fdbb00ca8f466b19ebc6686770e9d4cc12e1001092"
+        },
+        {
+          "path": "kubejs/assets/cw/textures/quests/bleh.png",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-kubejs-v1/assets~cw~textures~quests~bleh.png",
+          "sha256": "dced2dd71484a7089082f1842d552226ebe97f0832bb4966224c1573f5e3d486"
+        },
+        {
+          "path": "kubejs/assets/cw/textures/quests/brassage.png",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-kubejs-v1/assets~cw~textures~quests~brassage.png",
+          "sha256": "c586886724cd9de3764114ec1b0e61f1cb788e5cc98186d645014034247a6a05"
+        },
+        {
+          "path": "kubejs/assets/cw/textures/quests/copperage.png",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-kubejs-v1/assets~cw~textures~quests~copperage.png",
+          "sha256": "08db0f66e1aa14a293c42afcf01990dd85fc8756bf2242199cd6099ac2c319d7"
+        },
+        {
+          "path": "kubejs/assets/cw/textures/quests/cw1.png",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-kubejs-v1/assets~cw~textures~quests~cw1.png",
+          "sha256": "c3b911e039dc3a361b351f63e59571516ad24679064b49e010842824e5061820"
+        },
+        {
+          "path": "kubejs/assets/cw/textures/quests/cwtitle.png",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-kubejs-v1/assets~cw~textures~quests~cwtitle.png",
+          "sha256": "4116fec4a7b5c7b4354c014046e9c3fed1e7b06c5c47363dc861f5315986e372"
+        },
+        {
+          "path": "kubejs/assets/cw/textures/quests/discord.png",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-kubejs-v1/assets~cw~textures~quests~discord.png",
+          "sha256": "46a4eae799c36b7f430f064a03cbabb17bf805741ad32c5081030f68858a3f08"
+        },
+        {
+          "path": "kubejs/assets/cw/textures/quests/shockbytelogo.png",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-kubejs-v1/assets~cw~textures~quests~shockbytelogo.png",
+          "sha256": "47060dbfe19903a58f7f2d34ce36fd732a1f517afe4dd279907e7f4b14a91faa"
+        },
+        {
+          "path": "kubejs/assets/cw/lang/en_ca.json",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-kubejs-v1/assets~cw~lang~en_ca.json",
+          "sha256": "5e11ef780d5d3c0b0cd385b3391dab10ac0dc439013a54025c4677557f970e94"
+        },
+        {
+          "path": "kubejs/assets/cw/lang/en_us.json",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-kubejs-v1/assets~cw~lang~en_us.json",
+          "sha256": "e76c0156bb5db8cd14599912d8cc43c4fbf2390d6a2a75a06ec88782f50efb91"
+        },
+        {
+          "path": "kubejs/assets/cw/tips/tip1.json",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-kubejs-v1/assets~cw~tips~tip1.json",
+          "sha256": "5b0ed72980ff7438d040059aec999631210f2c272e52755a4e28082bcb2f4934"
+        },
+        {
+          "path": "kubejs/assets/cw/tips/tip11.json",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-kubejs-v1/assets~cw~tips~tip11.json",
+          "sha256": "b025f04d582f8795acbd75532a37e4fcab0f7ea139bc6895800c8d102e06dd78"
+        },
+        {
+          "path": "kubejs/assets/cw/tips/tip12.json",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-kubejs-v1/assets~cw~tips~tip12.json",
+          "sha256": "131cc9a4516decc2efc4e19d0a957dd96047132956066bf5312bdf4a7c464005"
+        },
+        {
+          "path": "kubejs/assets/cw/tips/tip13.json",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-kubejs-v1/assets~cw~tips~tip13.json",
+          "sha256": "20e769c74a9f468b36f23e4fd43c8438e209b2787311dfbd582862517b275fa9"
+        },
+        {
+          "path": "kubejs/assets/cw/tips/tip14.json",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-kubejs-v1/assets~cw~tips~tip14.json",
+          "sha256": "a5d4e6732155290242f40ea75095b3050f31170a98f66ec696db2275ecf4ceb3"
+        },
+        {
+          "path": "kubejs/assets/cw/tips/tip15.json",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-kubejs-v1/assets~cw~tips~tip15.json",
+          "sha256": "5e1fb32503e0efe4b1660b7469413a2e983f682243ca10b02b5922cda8fd3e98"
+        },
+        {
+          "path": "kubejs/assets/cw/tips/tip16.json",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-kubejs-v1/assets~cw~tips~tip16.json",
+          "sha256": "28d018ac37cb116c7fbaa55d95fb969fe14148960fa6f81a1130249ab54c4fec"
+        },
+        {
+          "path": "kubejs/assets/cw/tips/tip17.json",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-kubejs-v1/assets~cw~tips~tip17.json",
+          "sha256": "91c3c64417ad8d479220766ebb8d531ffc9ec7370424e8e8541615a95458c4b7"
+        },
+        {
+          "path": "kubejs/assets/cw/tips/tip18.json",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-kubejs-v1/assets~cw~tips~tip18.json",
+          "sha256": "8afd68714ac85437e7fff29b9b9434f00395f71d5d2dcdd66b82a159e803529d"
+        },
+        {
+          "path": "kubejs/assets/cw/tips/tip19.json",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-kubejs-v1/assets~cw~tips~tip19.json",
+          "sha256": "f125067f332be6f0046314af3b85ee6475ca8ffd11aab6350f8064efb131497f"
+        },
+        {
+          "path": "kubejs/assets/cw/tips/tip2.json",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-kubejs-v1/assets~cw~tips~tip2.json",
+          "sha256": "17f9d2e8607d5705ff58eb6c0ebac01f9874498913f024b38234a1d6d7a73697"
+        },
+        {
+          "path": "kubejs/assets/cw/tips/tip20.json",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-kubejs-v1/assets~cw~tips~tip20.json",
+          "sha256": "de603a8ca563ab7fab65b28078076e020a3ffa05c0093283e159c8f69fda72d0"
+        },
+        {
+          "path": "kubejs/assets/cw/tips/tip21.json",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-kubejs-v1/assets~cw~tips~tip21.json",
+          "sha256": "0103f1ed2d172080080e281ce6393f8d87e635005e21af7fe75208c556c9861c"
+        },
+        {
+          "path": "kubejs/assets/cw/tips/tip22.json",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-kubejs-v1/assets~cw~tips~tip22.json",
+          "sha256": "d95e73e52987466f85f1c162ffde5fbcf4ce0183ba66c41f9f47d832a2c89917"
+        },
+        {
+          "path": "kubejs/assets/cw/tips/tip23.json",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-kubejs-v1/assets~cw~tips~tip23.json",
+          "sha256": "8f15ed381ce1eceb6f0231f3c7ec33b14c5773e467982446f866c64f0745cd16"
+        },
+        {
+          "path": "kubejs/assets/cw/tips/tip24.json",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-kubejs-v1/assets~cw~tips~tip24.json",
+          "sha256": "36ac58a927ddaf724ca352eab1bf66157be54417379ff6395ae18487c1873337"
+        },
+        {
+          "path": "kubejs/assets/cw/tips/tip25.json",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-kubejs-v1/assets~cw~tips~tip25.json",
+          "sha256": "5aca153ac3c8027eca2fc985e7b027d376be03b524fe0370783020e40dc660d2"
+        },
+        {
+          "path": "kubejs/assets/cw/tips/tip26.json",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-kubejs-v1/assets~cw~tips~tip26.json",
+          "sha256": "997ba55db44efb3855d3e0f0bb6b72a897453d100928a21c2462cc406c363e40"
+        },
+        {
+          "path": "kubejs/assets/cw/tips/tip27.json",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-kubejs-v1/assets~cw~tips~tip27.json",
+          "sha256": "310ec8d670b65cd2b2a8e48073a9b8b93a0fb2332c2d88691b2afd1b326c25bc"
+        },
+        {
+          "path": "kubejs/assets/cw/tips/tip28.json",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-kubejs-v1/assets~cw~tips~tip28.json",
+          "sha256": "0c828863eeef5d58f916ddac90499373f76f482ca224ec772fbc1d64f6423d92"
+        },
+        {
+          "path": "kubejs/assets/cw/tips/tip29.json",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-kubejs-v1/assets~cw~tips~tip29.json",
+          "sha256": "22d74b3e3168c92988bc39398ea5907d8a0ef8338246ad17c2efd8ee952198bc"
+        },
+        {
+          "path": "kubejs/assets/cw/tips/tip3.json",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-kubejs-v1/assets~cw~tips~tip3.json",
+          "sha256": "91f71856e34dc659d42e3d6f1c7a2f75aaaa8e0fc0590c7cc180f1bf86b61301"
+        },
+        {
+          "path": "kubejs/assets/cw/tips/tip30.json",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-kubejs-v1/assets~cw~tips~tip30.json",
+          "sha256": "bc044b6ec1e99d753514173b1f6c34b858c5f8ee259a6f0fc386b929cd8a9f5b"
+        },
+        {
+          "path": "kubejs/assets/cw/tips/tip31.json",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-kubejs-v1/assets~cw~tips~tip31.json",
+          "sha256": "64e570827241b888f31fcaa9b4568c8885f81eb197283fddd8b5fbc4a3cad651"
+        },
+        {
+          "path": "kubejs/assets/cw/tips/tip32.json",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-kubejs-v1/assets~cw~tips~tip32.json",
+          "sha256": "62c2f7c3cf34085eff364ca1bb984f8807b80efba44a4475cc37d5637fa85fa1"
+        },
+        {
+          "path": "kubejs/assets/cw/tips/tip33.json",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-kubejs-v1/assets~cw~tips~tip33.json",
+          "sha256": "c2d10ba51a2041508fc7b535c4c5d1772aa6523ff92656baa6171a1e62ea36dd"
+        },
+        {
+          "path": "kubejs/assets/cw/tips/tip34.json",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-kubejs-v1/assets~cw~tips~tip34.json",
+          "sha256": "0d209c32bb7fb1880b6117c0171d3670804fb4f9524442b6dc7c45baf763281b"
+        },
+        {
+          "path": "kubejs/assets/cw/tips/tip4.json",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-kubejs-v1/assets~cw~tips~tip4.json",
+          "sha256": "791c85c530138f952aa765481fe5a4fafac0921ba4cfcd6c4875a331de1e9ffe"
+        },
+        {
+          "path": "kubejs/assets/cw/tips/tip5.json",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-kubejs-v1/assets~cw~tips~tip5.json",
+          "sha256": "66d111522204f725342eca7009495007018e9d58ad8e7caf2b4edfaa07bab0c5"
+        },
+        {
+          "path": "kubejs/assets/cw/tips/tip6.json",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-kubejs-v1/assets~cw~tips~tip6.json",
+          "sha256": "1a9e2f4699b9ad343620b89abe962f3dd3412e09263b496038982ffc1642f1da"
+        },
+        {
+          "path": "kubejs/assets/cw/tips/tip7.json",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-kubejs-v1/assets~cw~tips~tip7.json",
+          "sha256": "179af217760ae12c8b930abdd6dbb0b32496d483b37e957ff4b9cd87fc4b58a6"
+        },
+        {
+          "path": "kubejs/assets/cw/tips/tip8.json",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-kubejs-v1/assets~cw~tips~tip8.json",
+          "sha256": "ce95d03bd07a7d379d6a699d05bc7f2f421cdbd1765194b7b1c4d684f439b97e"
+        },
+        {
+          "path": "kubejs/assets/cw/tips/tip9.json",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-kubejs-v1/assets~cw~tips~tip9.json",
+          "sha256": "56b6e05b8110522d2086f12eca73d5019fb1a6dbf7b7f00da6dc024c872589ef"
+        },
+        {
+          "path": "kubejs/client_scripts/renaming.js",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-kubejs-v1/client_scripts~renaming.js",
+          "sha256": "68f291a18971e1f1eb7b4a33923d039b637d24f500b580c2ab4836d1f042401d"
+        },
+        {
+          "path": "kubejs/startup_scripts/cwstartuptweaks.js",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-kubejs-v1/startup_scripts~cwstartuptweaks.js",
+          "sha256": "dc6cd92f133896825075ea7a1838876357bfa2b1f4ade5651b6d2feee988a8d9"
+        },
+        {
+          "path": "kubejs/startup_scripts/matts_stims_startup.js",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-kubejs-v1/startup_scripts~matts_stims_startup.js",
+          "sha256": "d165a0b71d72f8ba87b97318f2d04f14b5c4b21b8bea8fef218c47ca3b83b93b"
         }
       ],
       "theme": {
