@@ -1,6 +1,6 @@
 {
   "formatVersion": 1,
-  "updatedAt": "2026-08-12T02:26:27Z",
+  "updatedAt": "2026-08-12T02:29:07Z",
   "minecraft": {
     "version": "1.20.1"
   },
@@ -1971,11 +1971,6 @@
           "path": "resourcepacks/LixLab-Espanol.zip",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/LixLab-Espanol.zip",
           "sha256": "d834049959171c1997daa0da2f38bb269829f884badacf53e5433d991ad07c21"
-        },
-        {
-          "path": "tacz/tacz_default_gun.zip",
-          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/tacz_default_gun.zip",
-          "sha256": "360fe14038f2f03b83608734704e627f368b2cef09801167ff79c018ec6a627a"
         },
         {
           "path": "tacz/apocalypse_gunpack.zip",
