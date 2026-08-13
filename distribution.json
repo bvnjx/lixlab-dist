@@ -1,6 +1,6 @@
 {
   "formatVersion": 1,
-  "updatedAt": "2026-08-13T07:05:00Z",
+  "updatedAt": "2026-08-13T07:40:00Z",
   "minecraft": {
     "version": "1.20.1"
   },
@@ -2006,7 +2006,7 @@
         {
           "path": "config/fancymenu/customization/title_screen_layout.txt",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v2/title_screen_layout.txt",
-          "sha256": "d1616562f4f7907a1b53266e340fa6dbd794cd17fe73476adff06ec8129ac11a",
+          "sha256": "b6b3da77d6530728487b59c8b0e91461d941e4253de20f46e473bb789be8f237",
           "overwrite": "always"
         },
         {
@@ -2025,18 +2025,6 @@
           "path": "config/fancymenu/assets/frick.wav",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v2/frick.wav",
           "sha256": "91b7c06ecec4c2a5159dda4f51055ae751d271adeb78faf03e051ffcba969351",
-          "overwrite": "always"
-        },
-        {
-          "path": "config/fancymenu/assets/lightgray.png",
-          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v2/lightgray.png",
-          "sha256": "a505f9d9b5c29b76674c3f8aa9b30f7e5d673e2850ad909c0b02c9dd56e02b8e",
-          "overwrite": "always"
-        },
-        {
-          "path": "config/fancymenu/assets/gray1.png",
-          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v2/gray1.png",
-          "sha256": "9c92816ec3a5028248c67dda548b2a97212bd4904a95742b0f4515fda0ec49b1",
           "overwrite": "always"
         },
         {
@@ -2067,6 +2055,18 @@
           "path": "config/fancymenu/assets/apocalipsis_titulo.png",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v2/apocalipsis_titulo.png",
           "sha256": "f7d0819e68e7e15136a8eb4ad0600a62186d40f25b31e489cb8efa98d9e931f9",
+          "overwrite": "always"
+        },
+        {
+          "path": "config/fancymenu/assets/boton.png",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v2/boton.png",
+          "sha256": "4214c9563aa22faa4a274a7853e2a8d7872e3bd5e19e3ad6b4e1d52440cab913",
+          "overwrite": "always"
+        },
+        {
+          "path": "config/fancymenu/assets/boton_hover.png",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v2/boton_hover.png",
+          "sha256": "accb4c51ce06408a621391f7bf1d56f4443c9c4877c04a3af3669434b276b06d",
           "overwrite": "always"
         }
       ],
