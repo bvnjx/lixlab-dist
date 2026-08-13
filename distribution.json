@@ -1,6 +1,6 @@
 {
   "formatVersion": 1,
-  "updatedAt": "2026-08-12T02:48:55Z",
+  "updatedAt": "2026-08-13T03:50:00Z",
   "minecraft": {
     "version": "1.20.1"
   },
@@ -1978,8 +1978,9 @@
         },
         {
           "path": "resourcepacks/LixLab-Espanol.zip",
-          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/LixLab-Espanol.zip",
-          "sha256": "d834049959171c1997daa0da2f38bb269829f884badacf53e5433d991ad07c21"
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v2/LixLab-Espanol.zip",
+          "sha256": "f0c15cbf0d24680acbf533266469cbd9481b12710847456cecb89cdbe5e6567d",
+          "overwrite": "always"
         },
         {
           "path": "tacz/apocalypse_gunpack.zip",
@@ -1990,6 +1991,18 @@
           "path": "tacz/ms_mobius_gunpack.zip",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v1/ms_mobius_gunpack.zip",
           "sha256": "1e128a4a6e99b70ee958c12d4ee96b207bcff6ed41e2d13447765780f7addf6c"
+        },
+        {
+          "path": "config/fancymenu/customization/title_screen_layout.txt",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v2/title_screen_layout.txt",
+          "sha256": "b5ed7d77f18d0d659945fc75cf85b5550212e2e58a584efb8a219b78e9c3c173",
+          "overwrite": "always"
+        },
+        {
+          "path": "config/fancymenu/options.txt",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v2/fancymenu-options.txt",
+          "sha256": "aa7ca5aafc708b9765a7f0b5c171a3fea3165b82ffd172c769baac4aa6f9b312",
+          "overwrite": "always"
         }
       ],
       "theme": {
@@ -2006,15 +2019,16 @@
         "name": "LixLab · Apocalipsis Z",
         "host": "atoms-ballots.tun.ply.gg",
         "port": 37409,
-        "onlineMode": false
+        "onlineMode": false,
+        "autoConnect": false
       },
       "game": {
         "keybinds": {
-          "version": "apoc-2026-08-12b",
+          "version": "apoc-2026-08-13",
           "map": {
             "key_gui.xaero_enlarge_map": "key.keyboard.i",
-            "key_gui.xaero_new_waypoint": "key.keyboard.x",
-            "key_gui.xaero_open_map": "key.keyboard.end",
+            "key_gui.xaero_new_waypoint": "key.keyboard.b",
+            "key_gui.xaero_open_map": "key.keyboard.m",
             "key_iris.keybind.reload": "key.keyboard.unknown",
             "key_iris.keybind.shaderPackSelection": "key.keyboard.unknown",
             "key_key.carry.desc": "key.keyboard.left.shift",
@@ -2023,15 +2037,15 @@
             "key_key.jade.show_details": "key.keyboard.left.shift",
             "key_key.loadToolbarActivator": "key.keyboard.unknown",
             "key_key.parcool.Breakfall": "key.keyboard.right.alt",
-            "key_key.parcool.ClingToCliff": "key.mouse.right",
+            "key_key.parcool.ClingToCliff": "key.keyboard.right.alt",
             "key_key.parcool.Crawl": "key.keyboard.c",
             "key_key.parcool.Dodge": "key.keyboard.right.alt",
-            "key_key.parcool.HangDown": "key.mouse.right",
+            "key_key.parcool.HangDown": "key.keyboard.right.alt",
             "key_key.parcool.HideInBlock": "key.keyboard.c",
             "key_key.parcool.HorizontalWallRun": "key.keyboard.right.alt",
-            "key_key.parcool.RideZipline": "key.mouse.right",
-            "key_key.parcool.Vault": "key.mouse.right",
-            "key_key.parcool.WallSlide": "key.mouse.right",
+            "key_key.parcool.RideZipline": "key.keyboard.right.alt",
+            "key_key.parcool.Vault": "key.keyboard.right.alt",
+            "key_key.parcool.WallSlide": "key.keyboard.right.alt",
             "key_key.ponder.ponder": "key.keyboard.unknown",
             "key_key.shouldersurfing.free_look": "key.keyboard.left.alt",
             "key_key.socialInteractions": "key.keyboard.unknown",
@@ -2041,13 +2055,21 @@
             "key_key.toolbelt.open": "key.keyboard.home",
             "key_key.voice_chat": "key.keyboard.caps.lock",
             "key_keybind.sophisticatedbackpacks.sort": "key.mouse.middle",
-            "key_keybinds.combatroll.roll": "key.keyboard.right.alt"
+            "key_keybinds.combatroll.roll": "key.keyboard.right.alt",
+            "key_key.tacz.shoot.desc": "key.mouse.left",
+            "key_key.tacz.aim.desc": "key.mouse.right",
+            "key_key.tacz.reload.desc": "key.keyboard.r",
+            "key_key.tacz.fire_select.desc": "key.keyboard.v",
+            "key_key.tacz.melee.desc": "key.keyboard.g",
+            "key_key.tacz.inspect.desc": "key.keyboard.h",
+            "key_key.tacz.interact.desc": "key.keyboard.u",
+            "key_key.tacz.refit.desc": "key.keyboard.n"
           }
         },
         "options": {
-          "version": "es-2026-08-12",
+          "version": "es-cl-2026-08-13",
           "map": {
-            "lang": "es_es"
+            "lang": "es_cl"
           }
         },
         "resourcePacks": [
