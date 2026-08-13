@@ -1,6 +1,6 @@
 {
   "formatVersion": 1,
-  "updatedAt": "2026-08-13T03:50:00Z",
+  "updatedAt": "2026-08-13T05:20:00Z",
   "minecraft": {
     "version": "1.20.1"
   },
@@ -52,8 +52,19 @@
   ],
   "branding": {},
   "launcher": {
-    "latestVersion": "1.3.10",
+    "latestVersion": "1.3.11",
     "changelog": [
+      {
+        "version": "1.3.11",
+        "date": "2026-08-13",
+        "changes": [
+          "Jugar abre el menu del juego: ahora ves el menu del Apocalipsis antes de entrar.",
+          "Se arreglaron disparar y apuntar (las teclas de TACZ no estaban puestas).",
+          "El mapa del mundo vuelve a la M, y poner marca pasa a la B.",
+          "El parkour sale del clic derecho, que estorbaba al apuntar.",
+          "Todo el juego y los mods en espanol de Chile: 10.511 textos en 70 mods."
+        ]
+      },
       {
         "version": "controles-v2",
         "date": "2026-08-12",
@@ -181,7 +192,7 @@
         ]
       }
     ],
-    "minVersion": "1.3.10"
+    "minVersion": "1.3.11"
   },
   "profiles": [
     {
