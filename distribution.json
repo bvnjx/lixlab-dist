@@ -1,6 +1,6 @@
 {
   "formatVersion": 1,
-  "updatedAt": "2026-08-13T05:40:00Z",
+  "updatedAt": "2026-08-13T06:05:00Z",
   "minecraft": {
     "version": "1.20.1"
   },
@@ -2006,19 +2006,13 @@
         {
           "path": "config/fancymenu/customization/title_screen_layout.txt",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v2/title_screen_layout.txt",
-          "sha256": "b5ed7d77f18d0d659945fc75cf85b5550212e2e58a584efb8a219b78e9c3c173",
+          "sha256": "1e84dd17bec079ffef61e61beb848169f7531b5d40874c718d15ebd705434071",
           "overwrite": "always"
         },
         {
           "path": "config/fancymenu/options.txt",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v2/fancymenu-options.txt",
-          "sha256": "aa7ca5aafc708b9765a7f0b5c171a3fea3165b82ffd172c769baac4aa6f9b312",
-          "overwrite": "always"
-        },
-        {
-          "path": "config/fancymenu/assets/cwguitar.wav",
-          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v2/cwguitar.wav",
-          "sha256": "3b7fc74fa91cb95c481c78624b07ca20b183e2dda050e1b281761a05eb948505",
+          "sha256": "3f89ec67da762220d861a41de41f6357fd05adc721a976340360495c190a9944",
           "overwrite": "always"
         },
         {
@@ -2067,6 +2061,12 @@
           "path": "config/fancymenu/config.txt",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v2/config.txt",
           "sha256": "f55df7226d6add1d1c56fa0b4b2bfa131aa24ea34de0e76ca4ac05eca2575dfb",
+          "overwrite": "always"
+        },
+        {
+          "path": "config/fancymenu/assets/apocalipsis.jpg",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v2/apocalipsis.jpg",
+          "sha256": "cee8e1b2bc49229a6af1e46f33fbe9cc0dc9de53d8799f513792009a398b11d3",
           "overwrite": "always"
         }
       ],
