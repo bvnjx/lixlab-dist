@@ -1,6 +1,6 @@
 {
   "formatVersion": 1,
-  "updatedAt": "2026-08-13T06:05:00Z",
+  "updatedAt": "2026-08-13T07:05:00Z",
   "minecraft": {
     "version": "1.20.1"
   },
@@ -2006,7 +2006,7 @@
         {
           "path": "config/fancymenu/customization/title_screen_layout.txt",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v2/title_screen_layout.txt",
-          "sha256": "1e84dd17bec079ffef61e61beb848169f7531b5d40874c718d15ebd705434071",
+          "sha256": "d1616562f4f7907a1b53266e340fa6dbd794cd17fe73476adff06ec8129ac11a",
           "overwrite": "always"
         },
         {
@@ -2019,12 +2019,6 @@
           "path": "config/fancymenu/assets/audio_20241129135507.ogg",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v2/audio_20241129135507.ogg",
           "sha256": "4612d0759cebb926baf7f6e560d0733cc7e7dbc545a3477be1477ff455261b3e",
-          "overwrite": "always"
-        },
-        {
-          "path": "config/fancymenu/assets/i4mage.png",
-          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v2/i4mage.png",
-          "sha256": "5c0b3a1d1f592263d5be9294cd27a4ab65cef55718ba1bf0da69db361d3c5673",
           "overwrite": "always"
         },
         {
@@ -2067,6 +2061,12 @@
           "path": "config/fancymenu/assets/apocalipsis.jpg",
           "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v2/apocalipsis.jpg",
           "sha256": "cee8e1b2bc49229a6af1e46f33fbe9cc0dc9de53d8799f513792009a398b11d3",
+          "overwrite": "always"
+        },
+        {
+          "path": "config/fancymenu/assets/apocalipsis_titulo.png",
+          "url": "https://github.com/bvnjx/lixlab-dist/releases/download/pack-apocalipsis-v2/apocalipsis_titulo.png",
+          "sha256": "f7d0819e68e7e15136a8eb4ad0600a62186d40f25b31e489cb8efa98d9e931f9",
           "overwrite": "always"
         }
       ],
